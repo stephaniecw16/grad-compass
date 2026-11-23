@@ -85,7 +85,7 @@ if __name__ == "__main__":
         ("127.0.0.1", args.port), partial(PreviewHandler, directory=str(ROOT))
     )
     print(
-        f"GradApp student planner: http://127.0.0.1:{args.port}/ — 25 real programs, comparison, saved research and deadlines",
+        f"GradApp student planner: http://127.0.0.1:{args.port}/ — Full AMS directory, comparison, saved research and deadlines",
         flush=True,
     )
     try:

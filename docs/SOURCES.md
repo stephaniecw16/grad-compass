@@ -1,4 +1,14 @@
-# Program source audit
+# Program Source Audit
+
+## Full AMS Import · November 23, 2026
+
+All 742 AMS listing IDs and 1,295 degree tracks are included in the active site. The source is [all AMS listings](https://www.ams.org/find-graduate-programs?search=1). Duplicate, incomplete and stale listings remain visible with their IDs and update timestamps. The import stores factual labels/counts, not program narratives or private contacts.
+
+See the [per-field/per-listing verification inventory](AMS-VERIFICATION.md) and [machine-readable manifest](research/ams-manifest.json). Source facts checked at AMS are distinct from university-source checks. Not every university field is independently verified. The university URL audit records 463 deduplicated published links, of which 310 pages were retrieved while respecting robots rules; retrieval is not field verification. No missing fee, waiver, GRE policy, deadline, or graduation statistic is invented.
+
+Fresh facts are in the university-check modules, each with a source, degree scope and check date. Their cache review excluded unrelated programs, old-cycle GRE statements, application reimbursements, exam fees, and ambiguous dates. For example, the Acadia location is corrected using its own university page, and Minnesota Statistics’ conflicting cycle wording stays unverified.
+
+## Original 25 Doctoral Programs · Historical Source Audit
 
 Checked November 6, 2026 for Fall 2027 entry. Selected manually from the first two alphabetical pages of [AMS doctoral listings](https://www.ams.org/find-graduate-programs?prog_type=PHD), excluding standalone statistics, health, and unrelated doctoral records. This is a small initial catalogue, not a ranking or recommendation. Brown and Cornell each contribute two distinct programs. Boise is the Computing PhD mathematical emphasis named in the AMS department record.
 

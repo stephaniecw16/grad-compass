@@ -25,6 +25,13 @@ export function normalizePlan(value, programs) {
     const entry = value.saved[p.id] || {};
     saved[p.id] = {
       notes: text(entry.notes, 5000),
+      degree: p.degrees?.includes(entry.degree)
+        ? entry.degree
+        : p.curatedPhD
+          ? 'Doctoral'
+          : p.degrees?.length === 1
+            ? p.degrees[0]
+            : '',
       stage: stages.includes(entry.stage) ? entry.stage : stages[0],
       // An empty override means use the published catalog date, not an inferred year.
       deadline: dateOnly(entry.deadline),
@@ -32,6 +39,7 @@ export function normalizePlan(value, programs) {
     };
   }
   return {
+    schemaVersion: 2,
     profile: {
       name: text(profile.name, 120),
       college: text(profile.college, 200),
@@ -40,11 +48,33 @@ export function normalizePlan(value, programs) {
     saved,
   };
 }
-export function newSaved() {
-  return { notes: '', stage: stages[0], deadline: '', tasks: {} };
+export function newSaved(program) {
+  return {
+    notes: '',
+    degree: program?.curatedPhD
+      ? 'Doctoral'
+      : program?.degrees?.length === 1
+        ? program.degrees[0]
+        : '',
+    stage: stages[0],
+    deadline: '',
+    tasks: {},
+  };
 }
 export function effectiveDeadline(program, entry) {
-  return dateOnly(entry?.deadline) || dateOnly(program.deadline);
+  if (dateOnly(entry?.deadline)) return entry.deadline;
+  if (program.deadlinesByDegree)
+    return dateOnly(
+      program.deadlinesByDegree[
+        entry?.degree ||
+          (program.curatedPhD
+            ? 'Doctoral'
+            : program.degrees?.length === 1
+              ? program.degrees[0]
+              : '')
+      ],
+    );
+  return dateOnly(program.deadline);
 }
 export function daysAway(date, now = new Date()) {
   if (!dateOnly(date)) return null;

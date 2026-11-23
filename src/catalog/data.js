@@ -1,7 +1,7 @@
 // Selected from AMS doctoral listings; university pages checked November 6, 2026.
 // null prevents annual or conflicting dates from becoming confirmed cycle deadlines.
 export const checkedOn = '2026-11-06';
-export const amsDirectory = 'https://www.ams.org/find-graduate-programs?prog_type=PHD';
+export const amsDirectory = 'https://www.ams.org/find-graduate-programs?search=1';
 const raw = [
   {
     id: 'auburn',
@@ -484,7 +484,7 @@ const raw = [
     ],
   },
 ];
-export const programs = raw.map((p, i) => ({
+export const curatedPrograms = raw.map((p, i) => ({
   ...p,
   degree: 'PhD',
   checkedOn,

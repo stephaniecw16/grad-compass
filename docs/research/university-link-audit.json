@@ -1,0 +1,3406 @@
+{
+  "checkedOn": "2026-11-23",
+  "purpose": "URL retrieval only; not verification of all program fields.",
+  "checkedUrls": 463,
+  "retrieved": 310,
+  "results": [
+    {
+      "url": "http://gpadmissions.osu.edu/apply/grad.html?_gl=1*hy4u91*_ga*MjEyNDI4NDc2My4xNjMwNjAxODA0*_ga_09WC99HMPE*MTYzMDYxMDM1OC4xLjEuMTYzMDYxMDM2OS4w",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gpadmissions.osu.edu/apply/grad.html?_gl=1*hy4u91*_ga*MjEyNDI4NDc2My4xNjMwNjAxODA0*_ga_09WC99HMPE*MTYzMDYxMDM1OC4xLjEuMTYzMDYxMDM2OS4w"
+    },
+    {
+      "url": "http://math.hawaii.edu/wordpress/graduate-application/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "http://math.hawaii.edu/wordpress/graduate-application/"
+    },
+    {
+      "url": "http://statistics.ucla.edu/index.php/academics/graduate/applying-to-the-graduate-program/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "http://www.bu.edu/cas/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.bu.edu/cas/admissions/"
+    },
+    {
+      "url": "http://www.math.fau.edu/apply.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "http://www.umsl.edu/gradschool/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.umsl.edu/gradschool/"
+    },
+    {
+      "url": "http://www.umt.edu/grad/Apply/default.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.umt.edu/grad/apply/default.php"
+    },
+    {
+      "url": "http://www.vsu.edu/admissions/apply/graduate-apply/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.vsu.edu/admissions/apply/graduate-apply/"
+    },
+    {
+      "url": "https://academics.nsuok.edu/graduatecollege/Apply-for-Admission",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://admission.wesleyan.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://admission.wesleyan.edu/apply/"
+    },
+    {
+      "url": "https://admissions.albany.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://admissions.albany.edu/apply/"
+    },
+    {
+      "url": "https://admissions.fsu.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://admissions.fsu.edu/"
+    },
+    {
+      "url": "https://admissions.iusb.edu/apply/graduate.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://admissions.msu.edu/apply/graduate-students/default.aspx",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://admissions.msu.edu/apply/graduate-students"
+    },
+    {
+      "url": "https://admissions.neiu.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.neiu.edu/admissions"
+    },
+    {
+      "url": "https://admissions.ufl.edu/apply/graduate/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://admissions.ufl.edu/apply/graduate/"
+    },
+    {
+      "url": "https://admissions.unm.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://admissions.utah.edu/apply/graduate-students/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://admissions.utah.edu/apply/graduate-students/"
+    },
+    {
+      "url": "https://admissions.uwm.edu/manage/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://admissions.uwm.edu/register/?id=442d088c-4d8a-4572-be4e-00a5267ed73b",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://admissions.uwm.edu/register/?id=442d088c-4d8a-4572-be4e-00a5267ed73b"
+    },
+    {
+      "url": "https://admissions@math.uchicago.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://aggieadmissions.ncat.edu/graduateadmissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://amath.washington.edu/graduate-admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://amath.washington.edu/graduate-admissions"
+    },
+    {
+      "url": "https://amcs.uiowa.edu/application-material",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://amcs.upenn.edu/admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://amcs.upenn.edu/admission/"
+    },
+    {
+      "url": "https://app.applyyourself.com/?id=upr-grad",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=CUNYCCNYG",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=ukgrad",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantLogin.asp?id=auburn-g",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://appliedmath.arizona.edu/admissions/information-applicants",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://appliedmath.arizona.edu/admissions/information-applicants"
+    },
+    {
+      "url": "https://apply-psd.uchicago.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply-psd.uchicago.edu/apply/"
+    },
+    {
+      "url": "https://apply.bc.edu/portal/woods_college_apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://apply.duq.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply.duq.edu/apply/"
+    },
+    {
+      "url": "https://apply.govst.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply.govst.edu/apply/"
+    },
+    {
+      "url": "https://apply.grad.arizona.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://apply.grad.uci.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply.grad.uci.edu/apply/"
+    },
+    {
+      "url": "https://apply.graduate.tcu.edu/portal/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply.graduate.tcu.edu/portal/apply"
+    },
+    {
+      "url": "https://apply.graduateschool.brown.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply.graduateschool.brown.edu/portal/gs_app_management"
+    },
+    {
+      "url": "https://apply.gs.dartmouth.edu/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply.gs.dartmouth.edu/portal/guarini_apply"
+    },
+    {
+      "url": "https://apply.gsas.columbia.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply.gsas.columbia.edu/apply/"
+    },
+    {
+      "url": "https://apply.mc.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply.mc.edu/"
+    },
+    {
+      "url": "https://apply.memphis.edu/portal/graduate_application",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply.memphis.edu/portal/graduate_application"
+    },
+    {
+      "url": "https://apply.mit.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://web.mit.edu/"
+    },
+    {
+      "url": "https://apply.nmsu.edu/apply/?sr=1d0f7e61-2825-4c6b-a265-edc90af88be0",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://apply.nmsu.edu/apply/?sr=1d0f7e61-2825-4c6b-a265-edc90af88be0"
+    },
+    {
+      "url": "https://apply.sgs.utoronto.ca/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://applygrad.jhu.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://applygrad.jhu.edu/apply/"
+    },
+    {
+      "url": "https://applygrad.mcmaster.ca/portal/start_your_app",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://applygrad.mcmaster.ca/portal/start_your_app"
+    },
+    {
+      "url": "https://applygrad.mines.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://applygrad.mines.edu/apply/"
+    },
+    {
+      "url": "https://applygrad.missouri.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://applygrad.missouri.edu/apply/"
+    },
+    {
+      "url": "https://applygrad.ucsc.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://applygrad.ucsc.edu/apply/"
+    },
+    {
+      "url": "https://applygrad.uic.edu/portal/programs",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://applygrad.uic.edu/portal/programs"
+    },
+    {
+      "url": "https://applygrad.umanitoba.ca/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://applygrad.umanitoba.ca/apply/"
+    },
+    {
+      "url": "https://applyto.graduateschool.vt.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://applyto.graduateschool.vt.edu/apply/"
+    },
+    {
+      "url": "https://artsandsciences.csuohio.edu/mathematics/graduate-programs-0",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://artsandsciences.syracuse.edu/mathematics/graduate-studies/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://artsandsciences.syracuse.edu/mathematics/graduate-studies/"
+    },
+    {
+      "url": "https://artsci.usu.edu/math-stats/graduates/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://artsci.usu.edu/math-stats/graduates/apply"
+    },
+    {
+      "url": "https://aspph.org/student-journey/sophas/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://aspph.org/student-journey/sophas/"
+    },
+    {
+      "url": "https://attend.uindy.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://attend.uindy.edu/apply/"
+    },
+    {
+      "url": "https://brocku.ca/graduate-studies/future-students/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://carleton.ca/math/grad-programs-admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://carleton.ca/math/grad-programs-admission/"
+    },
+    {
+      "url": "https://cas.gsu.edu/graduate-admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://cas.gsu.edu/graduate-admissions/"
+    },
+    {
+      "url": "https://cas.gsu.edu/program/mathematics-and-statistics-phd/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://cas.gsu.edu/program/mathematics-and-statistics-phd/"
+    },
+    {
+      "url": "https://cas.lehigh.edu/content/applyinquire",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://cas.lehigh.edu/graduate/admissions/application-requirements-deadlines"
+    },
+    {
+      "url": "https://catalog.umkc.edu/colleges-schools/graduate-studies/mathematics/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://cb.cornell.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://cals.cornell.edu/computational-biology"
+    },
+    {
+      "url": "https://ceps.unh.edu/mathematics-statistics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://choose.illinois.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://choose.illinois.edu/apply/"
+    },
+    {
+      "url": "https://choose.umn.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://choose.umn.edu/portal/grad_app"
+    },
+    {
+      "url": "https://cla.umn.edu/statistics/graduate/how-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://cla.umn.edu/statistics/graduate/how-apply"
+    },
+    {
+      "url": "https://clas.ucdenver.edu/mathematical-and-statistical-sciences/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://clas.ucdenver.edu/mathematical-and-statistical-sciences/"
+    },
+    {
+      "url": "https://cmor.rice.edu/academics/graduate-programs/graduate-admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://cmor.rice.edu/academics/graduate-programs/graduate-admissions"
+    },
+    {
+      "url": "https://cos.northeastern.edu/admissions/graduate-programs/how-to-apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://cos.northeastern.edu/admissions/graduate-programs/how-to-apply/"
+    },
+    {
+      "url": "https://cph.uky.edu/programs",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://cph.uky.edu/programs"
+    },
+    {
+      "url": "https://cse.lmu.edu/graduateprograms/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://cse.lmu.edu/graduateprograms/"
+    },
+    {
+      "url": "https://csm.fresnostate.edu/math/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://cst.temple.edu/academics/graduate-programs/apply-now",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://connect.temple.edu/portal/gr_applytoday"
+    },
+    {
+      "url": "https://datasciencedegree.wisconsin.edu/getting-started/data-science-how-to-apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://uwex.wisconsin.edu/data-science/"
+    },
+    {
+      "url": "https://dms.umontreal.ca/en/programs/graduate-programs/admission-to-graduate-studies-in-mathematics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://dms.umontreal.ca/en/programs/graduate-programs/admission-to-graduate-studies-in-mathematics"
+    },
+    {
+      "url": "https://drexel.edu/admissions/grad",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://drexel.edu/admissions/grad"
+    },
+    {
+      "url": "https://explore.msu.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://explore.msu.edu/apply/"
+    },
+    {
+      "url": "https://global.rowan.edu/programs/ma-in-higher-education-administrative.html?utm_medium=cpc&utm_source=google&utm_campaign=prospect_ma_higher_ed&utm_content=brand&gad_source=1&gad_campaignid=13262906525&gbraid=0AAAAAD3SiTYJvVkJONb6uCflMP5u4FJ5R&gclid=Cj0KC",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://go.unl.edu/gradapp",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://applyweb.collegenet.com/account/bounce?filegroup=unlgrad&return=https%3A%2F%2Fwww.applyweb.com%2Fshibboleth%2Fgatekeeper%3Fdest%3D%252Fforms%252Funlgrad%253F"
+    },
+    {
+      "url": "https://gograd.ku.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradapply.ku.edu/"
+    },
+    {
+      "url": "https://gpem.luc.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gpem.luc.edu/apply/"
+    },
+    {
+      "url": "https://grad.admissions.uiowa.edu/academics/mathematics-ms-or-phd",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://grad.admissions.uiowa.edu/academics/mathematics-ms-or-phd"
+    },
+    {
+      "url": "https://grad.baylor.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://grad.baylor.edu/portal/grad_application"
+    },
+    {
+      "url": "https://grad.berkeley.edu/admissions/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradapp.berkeley.edu/apply/"
+    },
+    {
+      "url": "https://grad.calpoly.edu/apply.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://grad.illinois.edu/admissions/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://grad.illinois.edu/admissions/apply-now"
+    },
+    {
+      "url": "https://grad.saintmarys.edu/admission-aid/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.saintmarys.edu/graduate-studies"
+    },
+    {
+      "url": "https://grad.sfsu.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://grad.smu.edu/graduate-studies-in-computational-and-applied-mathematics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://grad.smu.edu/graduate-studies-in-computational-and-applied-mathematics"
+    },
+    {
+      "url": "https://grad.soe.ucsc.edu/applied-mathematics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://grad.stjohns.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://grad.stjohns.edu/apply/"
+    },
+    {
+      "url": "https://grad.stonybrook.edu/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://grad.uconn.edu/admissions/apply-to-uconn/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://grad.ucsd.edu/admissions/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://grad.ucsd.edu/admissions/index.html"
+    },
+    {
+      "url": "https://grad.uga.edu/admissions/apply-now/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://grad.uga.edu/admissions/apply-now/"
+    },
+    {
+      "url": "https://grad.usask.ca/programs/mathematics.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://grad.usask.ca/programs/mathematics.php"
+    },
+    {
+      "url": "https://grad.wisc.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://grad.wisc.edu/apply/"
+    },
+    {
+      "url": "https://gradadmission.smu.edu/portal/gradapp",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradadmission.smu.edu/portal/gradapp"
+    },
+    {
+      "url": "https://gradadmissions.charlotte.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradadmissions.charlotte.edu/"
+    },
+    {
+      "url": "https://gradadmissions.du.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradadmissions.du.edu/apply/"
+    },
+    {
+      "url": "https://gradadmissions.stanford.edu/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradadmissions.stanford.edu/apply"
+    },
+    {
+      "url": "https://gradadmissions.vcu.edu/portal/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradadmissions.vcu.edu/portal/apply"
+    },
+    {
+      "url": "https://gradadmit.wustl.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradadmit.wustl.edu/apply/"
+    },
+    {
+      "url": "https://gradapp.berkeley.edu/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradapp.berkeley.edu/apply/"
+    },
+    {
+      "url": "https://gradapp.gatech.edu/portal/program-info",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradapp.gatech.edu/portal/program-info"
+    },
+    {
+      "url": "https://gradapp.yu.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.yu.edu/admission"
+    },
+    {
+      "url": "https://gradapply.ecsu.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradapply.ecsu.edu/"
+    },
+    {
+      "url": "https://gradapply.ku.edu/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradapply.ku.edu/apply"
+    },
+    {
+      "url": "https://gradapply.olemiss.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradapply.olemiss.edu/apply/"
+    },
+    {
+      "url": "https://gradapply.purdue.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradapply.purdue.edu/apply/"
+    },
+    {
+      "url": "https://gradapply.purdue.edu/apply/?_ga=2.151275706.202991805.1601302473-599500199.1568982572",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradapply.purdue.edu/apply/?_ga=2.151275706.202991805.1601302473-599500199.1568982572"
+    },
+    {
+      "url": "https://gradase.admissions.tufts.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradase.admissions.tufts.edu/apply/"
+    },
+    {
+      "url": "https://gradcollege.okstate.edu/application-process/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gradconnect.nd.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradconnect.nd.edu/apply/"
+    },
+    {
+      "url": "https://gradschool.cornell.edu/admissions/apply/apply-now/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gradschool.duke.edu/admissions/application-instructions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradschool.duke.edu/admissions/application-instructions/"
+    },
+    {
+      "url": "https://gradschool.princeton.edu/admission-onboarding/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gradschool.princeton.edu/admission/applying-princeton/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gradschool.siu.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gradschool.umbc.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradschool.umbc.edu/"
+    },
+    {
+      "url": "https://gradschool.umd.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradschool.umd.edu/"
+    },
+    {
+      "url": "https://gradschool.umd.edu/admissions/application-process/step-step-guide-applying",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradschool.umd.edu/admissions/application-process/apply-now"
+    },
+    {
+      "url": "https://gradschool.umd.edu/admissions/choose-maryland",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradschool.umd.edu/admissions/choose-maryland"
+    },
+    {
+      "url": "https://gradschool.unc.edu/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradschool.unc.edu/admissions/"
+    },
+    {
+      "url": "https://gradschool.unc.edu/admissions/instructions.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gradschool.unc.edu/programs/#504",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gradschool.utk.edu/future-students/office-of-graduate-admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradschool.utk.edu/future-students/office-of-graduate-admissions/"
+    },
+    {
+      "url": "https://gradschool.vanderbilt.edu/admissions/application/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradschool.vanderbilt.edu/how-to-apply/"
+    },
+    {
+      "url": "https://gradschool.vanderbilt.edu/how-to-apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradschool.vanderbilt.edu/how-to-apply/"
+    },
+    {
+      "url": "https://gradschool.wayne.edu/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gradschool.wsu.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradschool.wsu.edu/apply/"
+    },
+    {
+      "url": "https://gradstudies.prod.brigham-young.psdops.com/_preview?_cms.db.previewId=0000017b-c167-debf-a1ff-c57f792e0000&amp;amp;amp;amp;amp;_date=",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gradstudies.prod.brigham-young.psdops.com/admissions/applying",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gradstudy.rutgers.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://graduate.appstate.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://graduate.as.virginia.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://graduate.as.virginia.edu/"
+    },
+    {
+      "url": "https://graduate.baylor.edu/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://graduate.indiana.edu/apply/how-to-apply/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://graduate.oregonstate.edu/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gradadmissions.oregonstate.edu/"
+    },
+    {
+      "url": "https://graduate.ua.edu/prospective-students/apply-now/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://slate.ua.edu/apply/"
+    },
+    {
+      "url": "https://graduate.ucf.edu/students/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://graduate.ucf.edu/students-accepting-graduate-assistantship-agreements/"
+    },
+    {
+      "url": "https://graduate.ucr.edu/admissions?_gl=1*18b8nry*_ga*NTM2MTU4MjM4LjE2Njg1NTAxMDg.*_ga_S8BZQKWST2*MTY3MDUzOTk1NC4zNi4xLjE2NzA1Mzk5ODUuMC4wLjA.*_ga_Z1RGSBHBF7*MTY3MDUzOTk1NC4zNi4xLjE2NzA1Mzk5ODUuMC4wLjA.",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://graduate.ucr.edu/admissions?_gl=1*18b8nry*_ga*NTM2MTU4MjM4LjE2Njg1NTAxMDg.*_ga_S8BZQKWST2*MTY3MDUzOTk1NC4zNi4xLjE2NzA1Mzk5ODUuMC4wLjA.*_ga_Z1RGSBHBF7*MTY3MDUzOTk1NC4zNi4xLjE2NzA1Mzk5ODUuMC4wLjA."
+    },
+    {
+      "url": "https://graduate.unl.edu/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://graduate.unl.edu/admissions-old/"
+    },
+    {
+      "url": "https://graduate.utulsa.edu/admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://utulsa.edu/wp-signup.php?new=graduate"
+    },
+    {
+      "url": "https://graduate.wfu.edu/apply-now-to-the-wake-forest-graduate-school/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://graduate.wfu.edu/apply-now-to-the-wake-forest-graduate-school/"
+    },
+    {
+      "url": "https://graduateadmissions.stonybrook.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://graduateadmissions.stonybrook.edu/apply/"
+    },
+    {
+      "url": "https://graduatedivision.ucmerced.edu/prospective-students/how-apply?_gl=1%2A1y4ltat%2A_gcl_au%2AMTk4MTExODQ0MS4xNzI2MTc1ODY1%2A_ga%2AMjkwMTEwNzA2LjE3MjYxNzU4NjU.%2A_ga_TSE2LSBDQZ%2AMTcyNjUxMTg2My4xNC4xLjE3MjY1MTE5MDAuMjMuMC4w",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://graduatedivision.ucmerced.edu/prospective-students/how-apply?_gl=1*ux9x9o*_ga*NzMxNTU4NzkyLjE1NjM0Mjc3NDc.*_ga_TSE2LSBDQZ*MTY5MzkzOTgxOC43NC4wLjE2OTM5Mzk4MTguNjAuMC4w",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://graduateschool.brown.edu/apply-mfa-or-doctoral-study-brown",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://graduateschool.brown.edu/apply-mfa-or-doctoral-study-brown"
+    },
+    {
+      "url": "https://graduateschool.vt.edu/admissions/how-to-apply.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://graduateschool.vt.edu/admissions/how-to-apply.html"
+    },
+    {
+      "url": "https://grs.uncg.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://grs.uncg.edu/"
+    },
+    {
+      "url": "https://gsas-admissions@columbia.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gsas.harvard.edu/admissions/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://gsas.yale.edu/admission",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gsas.yale.edu/admissions"
+    },
+    {
+      "url": "https://haslam.utk.edu/business-analytics-statistics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://haslam.utk.edu/business-analytics-statistics/"
+    },
+    {
+      "url": "https://home.hamptonu.edu/science/mathematics-graduate/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://join.rit.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://join.rit.edu/portal/app_start"
+    },
+    {
+      "url": "https://louisiana.edu/graduateschool/admissions/apply-now",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://louisiana.edu/graduateschool/admissions/apply-now"
+    },
+    {
+      "url": "https://louisville.edu/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://graduate.louisville.edu/"
+    },
+    {
+      "url": "https://lsa.umich.edu/stats",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://mankato.mnsu.edu/future-students/graduate/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.mnsu.edu:443/become-a-student/graduate-students/"
+    },
+    {
+      "url": "https://math.as.uky.edu/applying-to-mathematics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.as.uky.edu/applying-graduate-program"
+    },
+    {
+      "url": "https://math.charlotte.edu/graduate-program-information/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.cofc.edu/grad-progs/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.columbian.gwu.edu/graduate-admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.columbian.gwu.edu/graduate-admissions"
+    },
+    {
+      "url": "https://math.cornell.edu/graduate-admissions-application",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.cornell.edu/graduate-admissions-application"
+    },
+    {
+      "url": "https://math.iastate.edu/academics/graduate/math-and-applied-math-graduate-program/gradapply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.illinoisstate.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.illinoisstate.edu/"
+    },
+    {
+      "url": "https://math.indiana.edu/graduate/how-to-apply/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.ksu.edu/academics/graduate/admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.montana.edu/grad_students/math_graduate_studies.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.montana.edu/grad_students/math_graduate_studies.html"
+    },
+    {
+      "url": "https://math.oregonstate.edu/grad_appl_instr",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.oregonstate.edu/graduate/visit-and-apply/instructions"
+    },
+    {
+      "url": "https://math.osu.edu/grad/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.osu.edu/grad/apply"
+    },
+    {
+      "url": "https://math.ou.edu/graduate/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.ou.edu/graduate/admissions"
+    },
+    {
+      "url": "https://math.rice.edu/application-procedure",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.rice.edu/application-procedure"
+    },
+    {
+      "url": "https://math.rutgers.edu/academics/graduate-program/admissions-grad",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.rutgers.edu/academics/graduate-program/admissions-grad"
+    },
+    {
+      "url": "https://math.sdsu.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.sdsu.edu/"
+    },
+    {
+      "url": "https://math.temple.edu/grad/prospective/program/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.ua.edu/graduate-program/how-to-apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.uark.edu/academics/graduate/prospective-students/application.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.ucsc.edu/academics/graduate/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.ucsc.edu/academics/graduate/apply/"
+    },
+    {
+      "url": "https://math.ucsd.edu/students/graduate/how-to-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.ufl.edu/graduate-studies-in-mathematics/admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.unl.edu/prospective-graduate-students",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.unm.edu/graduate/graduate-program-applications",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.unm.edu/graduate/graduate-program-applications"
+    },
+    {
+      "url": "https://math.usu.edu/graduate/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.virginia.edu/graduate/admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://math.washington.edu/graduate-admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.washington.edu/graduate-admissions"
+    },
+    {
+      "url": "https://mathematics.catholic.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://mathematics.catholic.edu/"
+    },
+    {
+      "url": "https://mathematics.colostate.edu/graduate-students/graduate-program-application-instructions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://mathematics.colostate.edu/graduate-students/graduate-program-application-instructions/"
+    },
+    {
+      "url": "https://mathematics.fsu.edu/graduate/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://mathematics.fsu.edu/graduate/admissions"
+    },
+    {
+      "url": "https://mathematics.jhu.edu/graduate/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://mathematics.miami.edu/grad/application/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://mathematics.miami.edu/grad/application/index.html"
+    },
+    {
+      "url": "https://mathematics.stanford.edu/academics/graduate-admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://mathematics.stanford.edu/academics/graduate-admissions"
+    },
+    {
+      "url": "https://mathematics.stanford.edu/academicsgraduate-students/graduate-admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://mathematics.stanford.edu/academics/graduate-admissions"
+    },
+    {
+      "url": "https://mathstat.georgetown.edu/graduate/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://mathstat.georgetown.edu/ms-mathematics-statistics/admissions/"
+    },
+    {
+      "url": "https://mathstats.case.edu/graduate-programs/admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://mathstats.case.edu/admission/"
+    },
+    {
+      "url": "https://miamioh.edu/cas/graduate-programs/mathematics/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://miamioh.edu/cas/graduate-programs/mathematics/"
+    },
+    {
+      "url": "https://murraystate.edu/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://murraystate.edu/graduate"
+    },
+    {
+      "url": "https://mygradschool.jsums.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://naturalsciences.uoregon.edu/mathematics/apply/graduate-admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://naturalsciences.uoregon.edu/mathematics/apply/graduate-admissions"
+    },
+    {
+      "url": "https://naumathstat.github.io/gradprograms",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://naumathstat.github.io/gradprograms/"
+    },
+    {
+      "url": "https://nps.edu/web/math/welcome",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://nps.edu/web/math/welcome"
+    },
+    {
+      "url": "https://online.odu.edu/admissions/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://online.odu.edu/admissions/graduate-admissions"
+    },
+    {
+      "url": "https://phhp.ufl.edu/academics/phd-and-professional-programs/phd-biostatistics/how-to-apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://phhp.ufl.edu/academics/phd-and-professional-programs/phd-biostatistics/how-to-apply/"
+    },
+    {
+      "url": "https://publichealth.berkeley.edu/admissions/graduate/application-instructions/slate-programs/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://publichealth.berkeley.edu/admissions/on-campus-non-sophas"
+    },
+    {
+      "url": "https://publichealth.jhu.edu/offices-and-services/office-of-admissions-services/how-to-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://publichealth.ouhsc.edu/admissions-and-aid/how-to-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://publichealth.ouhsc.edu/admissions-and-aid/how-to-apply"
+    },
+    {
+      "url": "https://rackham.umich.edu/admissions/applying/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://rutgers.my.site.com/ApplicantPortal/AppPortalCustom",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://rutgers.my.site.com/ApplicantPortal/AppPortalCustom"
+    },
+    {
+      "url": "https://sc.edu/study/colleges_schools/artsandsciences/mathematics/study/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://science.indianapolis.iu.edu/math/admissions/apply/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://science.psu.edu/math/graduate/admission",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://science.psu.edu/math/graduate/admission"
+    },
+    {
+      "url": "https://science.ucalgary.ca/mathematics-statistics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://science.ucalgary.ca/mathematics-statistics"
+    },
+    {
+      "url": "https://sgaes.desu.edu/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://sites.google.com/mail.fresnostate.edu/bamm/application",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://sites.google.com/mail.fresnostate.edu/bamm/application"
+    },
+    {
+      "url": "https://sophas.org/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://aspph.org/student-journey/sophas/"
+    },
+    {
+      "url": "https://sph.emory.edu/admissions/master/index.html%20%20(MPH%20&%20MSPH)%20%20%20%20https://www.gs.emory.edu/admissions/application.html%20(PhD)",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://sph.rutgers.edu/admissions/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://sph.rutgers.edu/admissions/apply"
+    },
+    {
+      "url": "https://sph.tulane.edu/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://sph.tulane.edu/admissions"
+    },
+    {
+      "url": "https://sph.umich.edu/biostat/programs/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://sse.tulane.edu/academics/prospective-students",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://sse.tulane.edu/prospective-students-old"
+    },
+    {
+      "url": "https://stat.osu.edu/graduates/academic-programs/overview",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://stat.osu.edu/graduates/academic-programs/overview"
+    },
+    {
+      "url": "https://stat.uchicago.edu/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://stat.wisc.edu/graduate-admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://stat.wisc.edu/graduate-admissions/"
+    },
+    {
+      "url": "https://statistics.berkeley.edu/programs/graduate/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://statistics.sciences.ncsu.edu/graduate/application-process/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://statistics.sciences.ncsu.edu/graduate/application-process/"
+    },
+    {
+      "url": "https://statistics.ucdavis.edu/grad/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://terpengage.umd.edu/community/CustomLoginPage",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://texasam2025.liaisoncas.com/applicant-ux/?_gl=1*1vzjfr0*_gcl_au*MTE2NTQ5ODU5MS4xNzI1NTQ1OTg1*_ga*MTI4MzkyNTk2LjE3MjU1NDU5ODU.*_ga_8W9QJ1ZF21*MTcyODA2NjI4Ny42LjEuMTcyODA2NjI4Ny42MC4wLjA.#/login",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://texasam2025.cas.myliaison.com/applicant-ux/?_gl=1*1vzjfr0*_gcl_au*MTE2NTQ5ODU5MS4xNzI1NTQ1OTg1*_ga*MTI4MzkyNTk2LjE3MjU1NDU5ODU.*_ga_8W9QJ1ZF21*MTcyODA2NjI4Ny42LjEuMTcyODA2NjI4Ny42MC4wLjA."
+    },
+    {
+      "url": "https://troy.elluciancrmrecruit.com/Apply/Account/Create?f=0fdc6d43-bf96-46a9-9e98-9fccff152a94&o=4a10cd11-84f7-4c4a-9871-70d92940fb4f&s=6d75c52e-78cc-e211-ad51-6cae8b666252&IsInquiry=True&_gl=1*1o9tv5x*_gcl_au*MTc2NzY5NzUzMy4xNzQ0NjQ4MjA2*_ga*MTQ2ODExNTMz",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://troy.elluciancrmrecruit.com/Apply/Account/Create?f=0fdc6d43-bf96-46a9-9e98-9fccff152a94&o=4a10cd11-84f7-4c4a-9871-70d92940fb4f&s=6d75c52e-78cc-e211-ad51-6cae8b666252&IsInquiry=True&_gl=1*1o9tv5x*_gcl_au*MTc2NzY5NzUzMy4xNzQ0NjQ4MjA2*_ga*MTQ2ODExNTMz"
+    },
+    {
+      "url": "https://tsu.edu/academics/colleges-and-schools/graduate-school/apply-now.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://tsu.edu/academics/colleges-and-schools/graduate-school/apply-now.php"
+    },
+    {
+      "url": "https://ualr.edu/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://ualr.edu/admissions/"
+    },
+    {
+      "url": "https://uca.edu/graduateschool/applying-to-graduate-school/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://uca.edu/graduateschool/applying-to-graduate-school/"
+    },
+    {
+      "url": "https://udayton.edu/apply/graduate/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://udayton.edu/apply/graduate/index.php"
+    },
+    {
+      "url": "https://udayton.edu/apply/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://udayton.edu/apply/index.php"
+    },
+    {
+      "url": "https://uh.edu/nsm/math/graduate/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uh.edu/nsm/math/graduate/"
+    },
+    {
+      "url": "https://uiowa.edu/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://uiowa.edu/admissions"
+    },
+    {
+      "url": "https://umaine.edu/mathematics/graduate-program/application-procedure/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://umdearborn.edu/admissions/graduate/how-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://uncw.edu/gradschool/prospective.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uncw.edu/academics/graduate-school/?utm_source=gradschool&utm_medium=301&utm_id=REDIR1"
+    },
+    {
+      "url": "https://und.edu/admissions/apply.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://und.edu/admissions/apply.html"
+    },
+    {
+      "url": "https://und.edu/programs/index.html?search=mathematics&amp;amp;amp;locations=on-campus,online",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://und.edu/programs/index.html?search=mathematics&amp;amp;amp;locations=on-campus,online"
+    },
+    {
+      "url": "https://universityofsouthalabama2021.liaisoncas.com/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://universityofsouthalabama2021.cas.myliaison.com/applicant/"
+    },
+    {
+      "url": "https://utulsa.edu/admissions/graduate-admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://utulsa.edu/admissions/graduate-admission/"
+    },
+    {
+      "url": "https://uwaterloo.ca/combinatorics-and-optimization/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://uwaterloo.ca/combinatorics-and-optimization/"
+    },
+    {
+      "url": "https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/future-students/applying-graduate-school/before-you-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/future-students/before-you-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/application-procedure-and-admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/application-procedure-and-admissions"
+    },
+    {
+      "url": "https://uwaterloo.ca/statistics-and-actuarial-science/graduate-students/graduate-programs",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://uwosh.edu/gradstudies/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uwosh.edu/gradschool/admissions/"
+    },
+    {
+      "url": "https://web.saumag.edu/admissions/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.saumag.edu/admissions/apply/"
+    },
+    {
+      "url": "https://webapp.utc.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://webapps.grad.uw.edu/applForAdmiss/login.aspx",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://welcome.qc.cuny.edu/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://welcome.qc.cuny.edu/apply/"
+    },
+    {
+      "url": "https://wmich.edu/grad/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://wmich.edu/grad/apply"
+    },
+    {
+      "url": "https://ww3.math.ucla.edu/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://ww3.math.ucla.edu/admissions/"
+    },
+    {
+      "url": "https://www-math.umd.edu/graduate/prospective-students.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www-math.umd.edu/graduate/prospective-students.html"
+    },
+    {
+      "url": "https://www.aamu.edu/admissions-aid/undergraduate-admissions/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.aamu.edu/admissions-aid/undergraduate-admissions/index.html"
+    },
+    {
+      "url": "https://www.admissions.iastate.edu/apply/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.afit.edu/ADMISSIONS/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.afit.edu/ADMISSIONS/"
+    },
+    {
+      "url": "https://www.american.edu/cas/admissions/apply.cfm",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/datascience.kennesaw.edu",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/grad.uconn.edu",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/gradapply@mit.edu/math",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/gradschool.ecu.edu",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/sophas.org",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/stat.cmu.edu",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/statistics.arizona.edu",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/web.uri.edu/graduate-school/admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/www.bu.edu/actuary",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/www.dal.ca",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/www.gradschool.eku.edu",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/www.public-health.uiowa.edu/biostat/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ams.org/www.urmc.rochester.edu/education/graduate/phd/statistics/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.applyweb.com/musc/index.ftl",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.artsci.uc.edu/departments/math/grad.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.artsci.uc.edu/natural-sciences/math/academic-programs.html"
+    },
+    {
+      "url": "https://www.augusta.edu/gradschool/ms-biological-comp-math-adm-reqs.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.bc.edu/content/bc-web/schools/morrissey/departments/math/graduate/phd-program.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.bc.edu/content/bc-web/schools/morrissey/departments/math/graduate/phd-program.html"
+    },
+    {
+      "url": "https://www.bgsu.edu/arts-and-sciences/mathematics-and-statistics/graduate-programs/apply.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.bgsu.edu/arts-and-sciences/mathematics-and-statistics/graduate-programs/apply.html"
+    },
+    {
+      "url": "https://www.binghamton.edu/math/graduate/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.binghamton.edu/math/graduate/"
+    },
+    {
+      "url": "https://www.biostat.washington.edu/apply/requirements",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.biostat.washington.edu/apply/requirements"
+    },
+    {
+      "url": "https://www.boisestate.edu/math/grad/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.boisestate.edu/math/grad/apply/"
+    },
+    {
+      "url": "https://www.bridgew.edu/admissions/graduate/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.bridgew.edu/admissions/graduate/apply"
+    },
+    {
+      "url": "https://www.brown.edu/admission/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.brown.edu/admission/graduate"
+    },
+    {
+      "url": "https://www.brynmawr.edu/gsas/admissions-aid",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.brynmawr.edu/gsas/admissions-aid"
+    },
+    {
+      "url": "https://www.bsu.edu/admissions/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.bsu.edu/admissions/graduate"
+    },
+    {
+      "url": "https://www.bu.edu/sph/admissions/applying/programs/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.bu.edu/sph/admissions/applying/"
+    },
+    {
+      "url": "https://www.buffalo.edu/grad/explore/admissions/apply.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.buffalo.edu/grad/explore/admissions/apply.html"
+    },
+    {
+      "url": "https://www.buffalo.edu/grad/programs/biostatistics-phd.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.buffalo.edu/grad/programs/biostatistics-phd.html"
+    },
+    {
+      "url": "https://www.calstate.edu/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.calstate.edu/apply"
+    },
+    {
+      "url": "https://www.calstate.edu/apply/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.calstate.edu/apply/graduate"
+    },
+    {
+      "url": "https://www.calstatela.edu/nss/math",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.calstatela.edu/nss/math"
+    },
+    {
+      "url": "https://www.calstatela.edu/nss/math/masters-degree-mathematics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.calstatela.edu/nss/math/masters-degree-mathematics"
+    },
+    {
+      "url": "https://www.clarkson.edu/graduate/mathematics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.clarkson.edu/academics/majors-minors/mathematics-ms"
+    },
+    {
+      "url": "https://www.clayton.edu/admissions/grad/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.clayton.edu/admissions/grad/index.php"
+    },
+    {
+      "url": "https://www.clemson.edu/science/departments/math-stat/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.clemson.edu/science/academics/departments/mathstat/"
+    },
+    {
+      "url": "https://www.cmich.edu/admissions-aid/graduate-students/how-to-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.cmich.edu/graduate/how-to-apply"
+    },
+    {
+      "url": "https://www.cmu.edu/math/grad/phd/admissions.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.cmu.edu/math/grad/phd/admissions.html"
+    },
+    {
+      "url": "https://www.cmu.edu/mscf/admissions/apply.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.colorado.edu/math/graduate-program/graduate-program",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.colorado.edu/math/graduate-program/graduate-program"
+    },
+    {
+      "url": "https://www.concordia.ca/artsci/math-stats/programs.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.csuchico.edu/math/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.csueastbay.edu/graduate-studies/prospective-grad-students.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.csus.edu/math",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.csusm.edu/math/msdegree/applicmaterials.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.csusm.edu/math/msdegree/applicmaterials.html"
+    },
+    {
+      "url": "https://www.dal.ca/faculty/gradstudies/graduate-programs-admissions/admission_requirements/admission_process.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.dal.ca/faculty/gradstudies/apply-graduate-studies/how-to-apply.html"
+    },
+    {
+      "url": "https://www.depaul.edu/apply/Pages/default.aspx",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.depts.ttu.edu/gradschool/admissions/howtoapply.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.ttu.edu/admissions/graduate/how-to-apply/?utm_redirect_source=www.depts.ttu.edu%2Fgradschool%2Fadmissions%2Fprospective-students%2Fhow-to-apply%2Findex.php"
+    },
+    {
+      "url": "https://www.eku.edu/stem/mathematics-and-statistics/ma-applied-mathematics/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.eku.edu/stem/mathematics-and-statistics/ma-applied-mathematics/"
+    },
+    {
+      "url": "https://www.emporia.edu/graduate-school/request-more-information-graduate-school/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.emporia.edu/graduate-school/request-more-information-graduate/"
+    },
+    {
+      "url": "https://www.fairfield.edu/graduate-and-professional-studies/admission-and-financial-aid/admission/how-to-apply/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.fgcu.edu/admissionsandaid/graduateadmissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.fgcu.edu/admissionsandaid/graduateadmissions/"
+    },
+    {
+      "url": "https://www.fit.edu/graduate-admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.fit.edu/admission/applying/graduate/"
+    },
+    {
+      "url": "https://www.gc.cuny.edu/mathematics/admissions-and-aid",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.gmu.edu/admissions-aid/apply-now",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.gmu.edu/graduate/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.gradcollege.txstate.edu/programs.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.gradcollege.txst.edu/programs.html"
+    },
+    {
+      "url": "https://www.gradoffice.caltech.edu/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.gsas.columbia.edu/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.gsn.newark.rutgers.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://gsn.newark.rutgers.edu/"
+    },
+    {
+      "url": "https://www.indianastate.edu/academics/colleges/arts-sciences/math/graduate-information",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.indianastate.edu/academics/colleges/arts-sciences/math/graduate-information"
+    },
+    {
+      "url": "https://www.iup.edu/admissions/graduate/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.iup.edu/admissions/graduate/"
+    },
+    {
+      "url": "https://www.jcu.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.jcu.edu/"
+    },
+    {
+      "url": "https://www.k-state.edu/grad/admissions/application-process/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.k-state.edu/grad/admissions/application-process/"
+    },
+    {
+      "url": "https://www.kennesaw.edu/admissions/graduate/application-process/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.kent.edu/admissions/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.kent.edu/admissions/apply"
+    },
+    {
+      "url": "https://www.kent.edu/math",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.kent.edu/math"
+    },
+    {
+      "url": "https://www.kysu.edu/academics/grad-studies/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.lamar.edu/admissions/how-to-apply/graduate/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.latech.edu/admissions/graduate/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.latech.edu/admissions/graduate/"
+    },
+    {
+      "url": "https://www.lehman.cuny.edu/graduate-admissions/applying.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://lehman.edu/admissions/graduate-admissions/applying/"
+    },
+    {
+      "url": "https://www.lehman.edu/graduate-admissions/applying/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://lehman.edu/admissions/graduate-admissions//applying/"
+    },
+    {
+      "url": "https://www.lsu.edu/graduateschool/admissions/apply.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.lsu.edu/graduateschool/admissions/apply.php"
+    },
+    {
+      "url": "https://www.ltu.edu/futurestudents/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://ltu.edu/admissions/first-year-students/"
+    },
+    {
+      "url": "https://www.marquette.edu/grad/programs-computational-mathematical-statistical-sciences.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.marquette.edu/grad/programs-computational-mathematical-statistical-sciences.php"
+    },
+    {
+      "url": "https://www.maryville.edu/admissions/graduate/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.maryville.edu/admissions/graduate/"
+    },
+    {
+      "url": "https://www.math.sfasu.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.math.stonybrook.edu/institute-mathematical-sciences",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.math.stonybrook.edu/institute-mathematical-sciences"
+    },
+    {
+      "url": "https://www.math.tamu.edu/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://artsci.tamu.edu/mathematics/academics/graduate/index.html"
+    },
+    {
+      "url": "https://www.math.ubc.ca/graduate/prospective-students",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.math.ubc.ca/graduate/prospective-students"
+    },
+    {
+      "url": "https://www.math.ucdavis.edu/grad",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.math.ucdavis.edu/grad"
+    },
+    {
+      "url": "https://www.math.ucdavis.edu/grad/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.math.ucdavis.edu/grad/prospective/apply"
+    },
+    {
+      "url": "https://www.math.uci.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://math.uci.edu/"
+    },
+    {
+      "url": "https://www.math.uci.edu/admission",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.math.uwo.ca/graduate/application.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.math.uwo.ca/graduate/application.html"
+    },
+    {
+      "url": "https://www.mathematics.pitt.edu/graduate/admissions-and-financial-aid",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.mathematics.pitt.edu/graduate/admissions-and-financial-aid"
+    },
+    {
+      "url": "https://www.mccormick.northwestern.edu/applied-math/academics/graduate/phd/admissions.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.mccormick.northwestern.edu/applied-math/academics/graduate/phd/admissions.html"
+    },
+    {
+      "url": "https://www.mcneese.edu/admissions/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.mcw.edu/education/graduate-school/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.mcw.edu/education/graduate-school/prospective-students/admissions"
+    },
+    {
+      "url": "https://www.memphis.edu/msci/grad/admissions.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.memphis.edu/msci/grad/admissions.php"
+    },
+    {
+      "url": "https://www.miamioh.edu/statistics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://miamioh.edu/cas/departments/statistics/"
+    },
+    {
+      "url": "https://www.missouristate.edu/FutureStudents/apply-now.htm",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.missouristate.edu/FutureStudents/apply-now.htm"
+    },
+    {
+      "url": "https://www.montclair.edu/graduate/how-to-apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.montclair.edu/admissions-aid/how-apply-montclair-state-university/graduate-application-process"
+    },
+    {
+      "url": "https://www.mtu.edu/gradschool/prospective/apply-now/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.mtu.edu/globalcampus/gradadmissions/prospective/apply-now/"
+    },
+    {
+      "url": "https://www.ndsu.edu/gradschool/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.ndsu.edu/graduate-school/apply"
+    },
+    {
+      "url": "https://www.njcu.edu/admissions-aid/graduate-admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.kean.edu/jersey-city"
+    },
+    {
+      "url": "https://www.njit.edu/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.njit.edu/admissions"
+    },
+    {
+      "url": "https://www.nmt.edu/gradstudies/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.nmt.edu/gradstudies/index.php"
+    },
+    {
+      "url": "https://www.oden.utexas.edu/academics/prospective-students/how-to-apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ohio.edu/cas/math/graduate-mathematics-courses-resources/graduate-admission-requirements-mathematics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.ohio.edu/cas/math/graduate/admission"
+    },
+    {
+      "url": "https://www.oldwestbury.edu/programs-courses/data-science-ms/admissions-requirements",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.oldwestbury.edu/programs-courses/data-science-ms/admissions-requirements"
+    },
+    {
+      "url": "https://www.pdx.edu/math/graduate-application-instructions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.pittstate.edu/admissions.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.pittstate.edu/admissions.html"
+    },
+    {
+      "url": "https://www.pstat.ucsb.edu/graduate/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.pstat.ucsb.edu/graduate/apply"
+    },
+    {
+      "url": "https://www.publichealth.pitt.edu/biostatistics/admissions-aid/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.publichealth.pitt.edu/biostatistics/admissions"
+    },
+    {
+      "url": "https://www.purdue.edu/home/become-a-student/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.queensu.ca/grad-postdoc/grad-studies/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.queensu.ca/grad-postdoc/grad-studies/apply"
+    },
+    {
+      "url": "https://www.rmc-cmr.ca/en/graduate-studies/apply-grad-studies-rmc",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.rmc-cmr.ca/en/graduate-studies/apply-grad-studies-rmc"
+    },
+    {
+      "url": "https://www.roosevelt.edu/admission/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://applyru.roosevelt.edu/apply/"
+    },
+    {
+      "url": "https://www.saintmarys.edu/graduate-studies/data-science",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.saintmarys.edu/graduate-studies/data-science"
+    },
+    {
+      "url": "https://www.salemstate.edu/graduate/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.salemstate.edu/graduate/admissions"
+    },
+    {
+      "url": "https://www.sc.edu/study/colleges_schools/graduate_school/apply/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.scu.edu/engineering/academic-programs/department-of-applied-mathematics/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.scu.edu/engineering/academic-programs/department-of-applied-mathematics/"
+    },
+    {
+      "url": "https://www.sdstate.edu/admissions/apply-now",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.sdstate.edu/admissions/apply-now"
+    },
+    {
+      "url": "https://www.shsu.edu/programs/graduate/mathematics/ms.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.shsu.edu/academics/majors-programs/mathematics-ms"
+    },
+    {
+      "url": "https://www.siue.edu/academics/graduate/degrees-and-programs/math/admission-requirements.shtml",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.siue.edu/academics/graduate/degrees-and-programs/math/admission-requirements.shtml"
+    },
+    {
+      "url": "https://www.sjsu.edu/admissions/graduate/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.slu.edu/admission",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.smith.edu/academics/mathematical-sciences/center-women-mathematics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.smith.edu/academics/mathematical-sciences/center-women-mathematics"
+    },
+    {
+      "url": "https://www.southalabama.edu/departments/admissions/graduate.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.southalabama.edu/departments/admissions/graduate.html"
+    },
+    {
+      "url": "https://www.sph.umn.edu/academics/divisions/biostatistics/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.sph.umn.edu/academics/divisions/biostatistics/"
+    },
+    {
+      "url": "https://www.sru.edu/admissions/graduate-admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.sru.edu/admissions/graduate-admissions"
+    },
+    {
+      "url": "https://www.stat.indiana.edu/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.stat.pitt.edu/graduate/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.stat.pitt.edu/graduate/admissions"
+    },
+    {
+      "url": "https://www.stjohns.edu/admission/graduate-admission",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.stjohns.edu/admission/graduate-admission"
+    },
+    {
+      "url": "https://www.swosu.edu/admissions/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.syracuse.edu/admissions/graduate/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.syracuse.edu/admissions-aid/application-process/graduate/"
+    },
+    {
+      "url": "https://www.tamiu.edu/gradschool/financialassistance.shtml",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.tamuc.edu/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.etamu.edu/apply/"
+    },
+    {
+      "url": "https://www.tamuk.edu/enrollment-management/admission/graduate/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.tarleton.edu/math/degrees/graduate.html#apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.tarleton.edu/math/graduate-degree-overview/"
+    },
+    {
+      "url": "https://www.tgs.northwestern.edu/admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.tntech.edu/cas/math/application-instructions.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.tntech.edu/cas/math/application-instructions.php"
+    },
+    {
+      "url": "https://www.torontomu.ca/graduate/future-students/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.towson.edu/academics/graduate/admissions/apply/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.uab.edu/graduate/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uab.edu/gradadmissions/"
+    },
+    {
+      "url": "https://www.uab.edu/soph/home/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uab.edu/soph/home/graduate"
+    },
+    {
+      "url": "https://www.uaf.edu/admissions/apply/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.uah.edu/admissions/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.uakron.edu/graduate/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uakron.edu/graduate/admissions/"
+    },
+    {
+      "url": "https://www.ualberta.ca/mathematical-and-statistical-sciences/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.uccs.edu/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uccs.edu/apply"
+    },
+    {
+      "url": "https://www.ucmo.edu/future-students/apply-to-ucm/graduate-application-steps/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.ucmo.edu/future-students/apply-to-ucm/graduate-application-steps/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.udel.edu/academics/colleges/grad/prospective-students/grad-admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.uidaho.edu/admissions/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uidaho.edu/graduate-studies/admissions"
+    },
+    {
+      "url": "https://www.uidaho.edu/graduate-studies/admissions",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uidaho.edu/graduate-studies/admissions"
+    },
+    {
+      "url": "https://www.umass.edu/graduate/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.umass.edu/graduate/apply"
+    },
+    {
+      "url": "https://www.umass.edu/sphhs/prospective-students/how-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.umass.edu/public-health-sciences/"
+    },
+    {
+      "url": "https://www.uml.edu/grad/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uml.edu/grad/"
+    },
+    {
+      "url": "https://www.umoncton.ca/umcm-sciences-mathstat/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.umoncton.ca/umcm-sciences-mathstat/"
+    },
+    {
+      "url": "https://www.umsl.edu/admissions/applications.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.umsl.edu/admissions/applications.html"
+    },
+    {
+      "url": "https://www.umsl.edu/gradschool/prospective/how-to-apply.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.umsl.edu/gradschool/prospective/how-to-apply.html"
+    },
+    {
+      "url": "https://www.una.edu/math/ms-mathematics.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.una.edu/math/ms-mathematics.html"
+    },
+    {
+      "url": "https://www.unb.ca/gradstudies/admissions/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.unco.edu/graduate-school/degrees-and-programs/doctorate-programs/educational-mathematics-phd.aspx",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.uncw.edu/academics/majors-programs/cse/mathematics-ms/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uncw.edu/academics/majors-programs/cse/mathematics-ms/"
+    },
+    {
+      "url": "https://www.unlv.edu/graduatecollege/futurestudents",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.unlv.edu/graduatecollege/futurestudents"
+    },
+    {
+      "url": "https://www.unmc.edu/publichealth/programs/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.unmc.edu/publichealth/programs/index.html"
+    },
+    {
+      "url": "https://www.uno.edu/academics/cos/mathematics",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.unomaha.edu/college-of-arts-and-sciences/mathematics/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.unomaha.edu/college-of-arts-and-sciences/mathematics/index.php"
+    },
+    {
+      "url": "https://www.unr.edu/math/graduate/admissions-information",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.unr.edu/math/graduate/admissions-information"
+    },
+    {
+      "url": "https://www.unt.edu/admissions/graduate/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.uog.edu/admissions/graduate-studies/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uog.edu/admissions/graduate-studies/"
+    },
+    {
+      "url": "https://www.uottawa.ca/study/graduate-studies/how-to-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uottawa.ca/study/graduate-studies/how-to-apply"
+    },
+    {
+      "url": "https://www.uprm.edu/oeg/solicitud",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uprm.edu/oeg/solicitud/"
+    },
+    {
+      "url": "https://www.uregina.ca/gradstudies/future-students/Application/application-process.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uregina.ca/graduate-studies-research/"
+    },
+    {
+      "url": "https://www.usd.edu/grad/how-to-apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.usd.edu/grad/how-to-apply"
+    },
+    {
+      "url": "https://www.usd.edu/graduate-school",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.usd.edu/Academics/Colleges-and-Schools/graduate-school"
+    },
+    {
+      "url": "https://www.usm.edu/graduate-admissions/index.php#apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.usm.edu/graduate-school/admissions.php"
+    },
+    {
+      "url": "https://www.uta.edu/admissions/apply/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.utdallas.edu/admissions/graduate/steps-to-admission/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.utep.edu/science/math/academic-programs/graduate/how-to-apply.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.utoledo.edu/nsm/mathstats/graduate-program/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.utoledo.edu/nsm/mathstats/graduate-program/"
+    },
+    {
+      "url": "https://www.utpb.edu/academics/graduate-studies/admissions-and-deadlines/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.utpb.edu/admissions-aid/apply-to-ut-permian-basin/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.utrgv.edu/graduate/for-future-students",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.utrgv.edu/graduate/for-future-students/graduate-programs/program-requirements/applied-statistics-and-data-science-ms/index.htm",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.utrgv.edu/graduate/onlineapplication/index.htm",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.utrgv.edu/programs/phd-mathematics-statistics-inter-app.htm",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.uttyler.edu/graduate/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.uvic.ca/science/math-statistics/future-students/graduate/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uvic.ca/science/math-statistics/future-students/graduate/index.php"
+    },
+    {
+      "url": "https://www.uwindsor.ca/graduate-studies/354/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.uwindsor.ca/graduate-studies/354/apply"
+    },
+    {
+      "url": "https://www.uwlax.edu/grad/statistics/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.vcu.edu/admissions/apply/graduate/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.wesleyan.edu/grad/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.wesleyan.edu/about/directory/graduate-student-affairs/"
+    },
+    {
+      "url": "https://www.westga.edu/undergraduate-admissions/index.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.westga.edu/undergraduate-admissions/index.php"
+    },
+    {
+      "url": "https://www.wichita.edu/admissions/graduate/application-checklist-splitter.php",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.wichita.edu/admissions/graduate/application-checklist-splitter.php"
+    },
+    {
+      "url": "https://www.wilkes.edu/academics/graduate-programs/mathematics-ms.aspx",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www.wlu.ca/academics/faculties/graduate-and-postdoctoral-studies/admissions/step-1-applying/index.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.wlu.ca/academics/faculties/graduate-and-postdoctoral-studies/admissions/apply/index.html?ref=academics%2Ffaculties%2Fgraduate-and-postdoctoral-studies%2Fadmissions%2Fstep-1-applying%2Findex.html"
+    },
+    {
+      "url": "https://www.wpi.edu/admissions/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www1.villanova.edu/villanova/artsci/mathematics.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "not-retrieved"
+    },
+    {
+      "url": "https://www1.wne.edu/admissions/graduate/apply.cfm",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www1.wne.edu/admissions/graduate/apply.cfm"
+    },
+    {
+      "url": "https://www2.acadiau.ca/academics/graduate/mathematics-and-statistics.html",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www2.acadiau.ca/academics/graduate/mathematics-and-statistics.html"
+    },
+    {
+      "url": "https://www2.brockport.edu/graduate/admissions/",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.brockport.edu/admissions/graduate-student/"
+    },
+    {
+      "url": "https://www2.calstate.edu/Apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.calstate.edu/Apply"
+    },
+    {
+      "url": "https://www2.calstate.edu/apply",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.calstate.edu/apply"
+    },
+    {
+      "url": "https://www2.calstate.edu/apply/graduate",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://www.calstate.edu/apply/graduate"
+    },
+    {
+      "url": "https://ysu.edu/academics/college-graduate-studies",
+      "checkedOn": "2026-11-23",
+      "verification": "link-check-only",
+      "outcome": "retrieved",
+      "status": 200,
+      "finalUrl": "https://ysu.edu/academics/college-graduate-studies"
+    }
+  ]
+}

@@ -1,6 +1,11 @@
 export const fictionalGreKey = 'gradapp.fictional-gre-policy.v1';
 export const greCheckedOn = '2026-11-13';
-export const greOptions = { require: 'Required', suggest: 'Suggested', none: 'None' };
+export const greOptions = {
+  require: 'Required',
+  suggest: 'Suggested',
+  none: 'None',
+  unknown: 'Not Verified',
+};
 export const greTests = {
   greGeneral: {
     label: 'GRE General',
@@ -203,11 +208,11 @@ const rows = {
 
 export function grePolicy(program) {
   const [greGeneral, greMath, greCode, source, note, extra] = rows[program.id] || [
-    'none',
-    'none',
+    'unknown',
+    'unknown',
     '',
     '',
-    'Fictional program policy.',
+    'No test-specific university policy independently verified.',
   ];
   let fictional = {};
   if (program.id === 'example-test-university-math') {

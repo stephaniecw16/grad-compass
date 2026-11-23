@@ -11,6 +11,7 @@ export default [
       'test-results/**',
       'playwright-report/**',
       'src/professor/reviewer-samples.js',
+      'src/catalog/ams-data.js',
       'demo-files/**',
       'tests/unit/**',
     ],

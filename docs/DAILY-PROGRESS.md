@@ -1,5 +1,16 @@
 # Daily Progress
 
+## November 23, 2026 — Complete AMS Import and Honest Field Verification
+
+- Imported every one of the 742 AMS listing IDs, containing 1,295 advertised degree options: 693 master’s, 467 doctoral, 23 bridge/postbaccalaureate and 112 certificate tracks. Retained duplicate/incomplete records rather than silently merging them.
+- Added degree and country filters, 24-card pagination, degree-specific saved plans and deadline selection. Preserved all original 25 IDs and existing notes.
+- Added per-field university-source / AMS-reported / unverified states with citations, dates and scope. Blank GRE policies remain unknown; tuition, enrollment and funding are never converted into unrelated application or graduation statistics.
+- Captured 458 AMS faculty counts, 695 degree-specific full-time enrollment reports and 840 raw degree-specific GRE reports. Checked 463 deduplicated university URLs and retrieved 310 public pages; link retrieval is not field verification.
+- Reviewed additional university fee/waiver and GRE statements, plus explicit-cycle deadlines. University-source fields now exist for 90 listings; full independent verification of every field is not claimed. Published a coverage inventory for all 742 records.
+- Corrected Acadia’s conflicting province using its university address. Kept Minnesota Statistics’ contradictory cycle wording unverified. Distinguished Washington mathematics master’s/doctoral deadlines and Pitt statistics deadlines.
+- Added version-2 plan protection so older previews cannot overwrite expanded saved lists. Tested only with the reserved fictional accounts; preserved account ownership and existing record contents.
+- Connected a dedicated protected GradApp (Student) Vercel project to the separate repository, without a public release or paid-service upgrade. Verification and the current preview are recorded after the final build.
+
 ## November 23, 2026 — Separate GradApp (Student) Repository
 
 - Created the private gradapp-student repository, independent of the original GradApp and AppHelper repositories.

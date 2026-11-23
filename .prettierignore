@@ -7,3 +7,6 @@ test-results/
 playwright-report/
 src/professor/reviewer-samples.js
 pnpm-lock.yaml
+
+# Reproducible public AMS facts, one listing per line.
+src/catalog/ams-data.js

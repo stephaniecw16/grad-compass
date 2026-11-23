@@ -1,15 +1,15 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { programs } from '../../src/catalog/data.js';
+import { programs } from '../../src/catalog/catalog.js';
 import {
   normalizePlan,
   dateOnly,
   effectiveDeadline,
   calendarFile,
 } from '../../src/planner/plan-model.js';
-test('only the 25 real catalog programs can enter the saved plan', () => {
-  assert.equal(programs.length, 25);
+test('only real catalog programs can enter the saved plan', () => {
+  assert.equal(programs.length, 742);
   const plan = normalizePlan(
     {
       saved: {

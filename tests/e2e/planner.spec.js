@@ -19,15 +19,15 @@ async function signup(page, email, name) {
   await expect(page.locator('#account-status')).toContainText(email);
 }
 
-test('visitors research all 25 real programs and compare evidence without signing in', async ({
+test('visitors research all AMS programs and compare evidence without signing in', async ({
   page,
 }) => {
   await page.goto('/');
-  await expect(page.locator('#results .card')).toHaveCount(25);
+  await expect(page.locator('#results .card')).toHaveCount(24);
   await expect(page.getByRole('heading', { name: /Find the Math Program/ })).toBeVisible();
   await expect(page.locator('#results')).not.toContainText('Example Test University');
   await page.getByRole('searchbox', { name: 'Search Programs' }).fill('Brown');
-  await expect(page.locator('#results .card')).toHaveCount(2);
+  await expect(page.locator('#results .card')).toHaveCount(4);
   await page.locator('[data-compare="brown-math"]').check();
   await page.locator('[data-compare="brown-applied"]').check();
   await page.getByRole('link', { name: /Compare Schools/ }).click();
@@ -35,10 +35,10 @@ test('visitors research all 25 real programs and compare evidence without signin
   for (const name of [
     'GRE General',
     'GRE Math Subject',
-    'Application fee · domestic (USD)',
-    'Fee waiver / request eligibility',
-    'Average years to graduation',
-    'Graduate teaching / TA requirements',
+    'Application Fee · Domestic',
+    'Fee Waiver / Request Eligibility',
+    'Average Years to Graduation',
+    'Graduate Teaching / TA Requirements',
   ])
     await expect(page.getByRole('rowheader', { name, exact: true })).toBeVisible();
   await page.getByRole('link', { name: 'Choose Programs' }).click();
@@ -47,7 +47,7 @@ test('visitors research all 25 real programs and compare evidence without signin
   await expect(
     page
       .getByRole('dialog')
-      .getByRole('link', { name: /Official Source/ })
+      .getByRole('link', { name: /University Source/ })
       .first(),
   ).toHaveAttribute('href', /^https:\/\//);
   await page.getByRole('button', { name: 'Close Details' }).click();
@@ -59,6 +59,7 @@ test('student saves research, checklist, profile and deadlines, exports calendar
 }) => {
   await signup(page, 'planner-a@example.invalid', 'Fictional Student A');
   await page.getByRole('link', { name: 'Program Directory', exact: true }).click();
+  await page.getByRole('searchbox', { name: 'Search Programs' }).fill('Brown');
   await page.locator('[data-save="brown-math"]').click();
   await expect(page.locator('#toast')).toContainText('Program Saved');
   await page.getByRole('link', { name: 'Saved Programs', exact: true }).click();
@@ -121,7 +122,7 @@ test('saving as a visitor continues after signup and retired staff routes do not
   await expect(page.locator('main')).toContainText('separate AppHelper');
   await expect(page.locator('form')).toHaveCount(0);
   await page.goto('/workspace.html?demo=1&view=administration#department');
-  await expect(page.locator('#results .card')).toHaveCount(25);
+  await expect(page.locator('#results .card')).toHaveCount(24);
   await expect(page.locator('#department-workspace')).toHaveCount(0);
 });
 
@@ -130,7 +131,7 @@ test('mobile planner fits and warns before leaving unsaved notes', async ({ page
   await page.goto('/account.html#demo');
   await page.getByRole('button', { name: 'Open the Student Demo' }).click();
   await page.getByRole('link', { name: 'Program Directory', exact: true }).click();
-  await expect(page.locator('#results .card')).toHaveCount(25);
+  await expect(page.locator('#results .card')).toHaveCount(24);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(
     true,
   );
@@ -142,4 +143,27 @@ test('mobile planner fits and warns before leaving unsaved notes', async ({ page
   await expect(page.getByLabel('Research Notes')).toHaveValue('Unsaved fictional notes');
   await page.getByRole('button', { name: 'Save All Program Changes' }).click();
   await expect(page.locator('#save-state')).toHaveText('All Changes Saved');
+});
+
+test('the complete AMS catalog supports pagination, Canadian and degree filters, and honest verification labels', async ({
+  page,
+}) => {
+  await page.goto('/#directory');
+  await expect(page.locator('#result-count')).toContainText('742 of 742');
+  await page.getByRole('button', { name: 'Next Page', exact: true }).click();
+  await expect(page.locator('#pagination')).toContainText('Page 2 of 31');
+  await page.getByLabel('Country', { exact: true }).selectOption('Canada');
+  await page.getByLabel('Degree Type', { exact: true }).selectOption('Masters');
+  await page.getByRole('searchbox', { name: 'Search Programs' }).fill('Acadia');
+  await expect(page.locator('#results .card')).toHaveCount(1);
+  await page.getByRole('button', { name: 'Program Details', exact: true }).click();
+  await expect(page.getByRole('dialog')).toContainText('Nova Scotia');
+  await expect(page.getByRole('dialog')).toContainText('AMS Reported');
+  await expect(page.getByRole('dialog')).toContainText('Not Verified');
+  await expect(page.getByRole('dialog')).toContainText('University Source');
+  await page.getByRole('button', { name: 'Close Details' }).click();
+  await page.getByRole('searchbox', { name: 'Search Programs' }).fill('Youngstown');
+  await page.getByLabel('Country', { exact: true }).selectOption('');
+  await page.getByLabel('Degree Type', { exact: true }).selectOption('');
+  await expect(page.locator('#results .card')).toHaveCount(2);
 });

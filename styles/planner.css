@@ -657,3 +657,40 @@ dialog::backdrop {
 #view {
   scroll-margin-top: 100px;
 }
+.evidence-badge {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  border-radius: 5px;
+  background: #eef1eb;
+  color: #4d6459;
+  font-size: 0.72rem;
+  margin-top: 0.6rem;
+  font-weight: 600;
+}
+.evidence-badge.university {
+  background: #dfeee5;
+  color: #24523d;
+}
+.evidence-badge.unverified {
+  background: #f8eee1;
+  color: #78502b;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+  margin: 1rem 0 2rem;
+}
+.pagination span {
+  font-size: 0.85rem;
+}
+@media (max-width: 650px) {
+  .pagination {
+    gap: 0.5rem;
+  }
+  .pagination button {
+    font-size: 0.8rem;
+    padding: 0.6rem;
+  }
+}
