@@ -1,5 +1,14 @@
 # Daily Progress
 
+## November 23, 2026 — Funding and Application-Writing Research
+
+- Added separate Scholarships and Fellowships and Application Requirements tabs, available without signing in. Funding is limited to opportunities relevant to mathematics, applied mathematics, statistics, data science and computer science; clarified that CSF meant DOE CSGF.
+- Researched eight official funding programs with eligibility, degree-stage/citizenship conditions, application materials, essay limits where published, nomination routes, dates and citations. Kept closed deadlines closed and annual dates without verified years undated.
+- Added 44 reviewed program/degree entries covering 49 AMS listings. Distinguished purpose/personal-history statements, optional/recommended documents and true limits versus typical lengths. Included Brown’s Fall 2027 mathematical-idea video and Boise Computing’s prerequisite, faculty-interest and programming questionnaire.
+- All 742 listings have an explicit writing-research state; complete supplemental-question sets remain unverified for most programs. No prompts were invented or copied across unrelated departments/degrees.
+- Connected writing guidance to Program Details and saved-program navigation, with public search, degree/coverage filters, shortlist filtering and pagination. Split reusable text escaping/link rendering into a small shared module. Existing plans and online storage are unchanged.
+- Published the research inventory and added browser/model regressions for closed deadlines, nomination constraints, degree isolation, unknowns and safe text rendering. Validation results are recorded in VERIFICATION.md.
+
 ## November 23, 2026 — Complete AMS Import and Honest Field Verification
 
 - Imported every one of the 742 AMS listing IDs, containing 1,295 advertised degree options: 693 master’s, 467 doctoral, 23 bridge/postbaccalaureate and 112 certificate tracks. Retained duplicate/incomplete records rather than silently merging them.

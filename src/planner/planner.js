@@ -1,4 +1,10 @@
 import {
+  drawFunding,
+  drawWriting,
+  handleResearchEvent,
+  focusWritingProgram,
+} from './research-workspace.js';
+import {
   programs,
   amsCheckedOn,
   amsDirectory,
@@ -51,7 +57,16 @@ function notify(message) {
 const localKey = () => 'gradapp.student-planner.v1.' + account.user.id;
 function route() {
   const key = location.hash.slice(1);
-  return ['directory', 'compare', 'saved', 'deadlines', 'profile', 'about'].includes(key)
+  return [
+    'directory',
+    'funding',
+    'requirements',
+    'compare',
+    'saved',
+    'deadlines',
+    'profile',
+    'about',
+  ].includes(key)
     ? key
     : 'directory';
 }
@@ -158,7 +173,7 @@ function drawSaved() {
 }
 function savedCard(p) {
   const entry = plan.saved[p.id];
-  return `<article class="panel plan-card" id="plan-${p.id}"><div class="card-top"><div><p class="eyebrow">${html(p.city)}</p><h3>${html(p.name)} · ${html(p.title)}</h3></div><button type="button" class="small" data-remove="${p.id}">Remove Program</button></div><p class="quiet">Published: ${html(deadlineText(p))}. ${sourceLink(p.sources[0]?.[1], 'Check Current Requirements')}</p><label>Degree or Program Track<select name="${p.id}.degree"><option value="">Choose a Degree for Planning</option>${p.degrees.map((degree) => `<option ${entry.degree === degree ? 'selected' : ''}>${html(degree)}</option>`).join('')}</select><span class="quiet">University policies and dates may differ by degree. Notes apply to this saved AMS listing.</span></label><div class="form-grid"><label>Planning Stage<select name="${p.id}.stage">${stages.map((stage) => `<option ${entry.stage === stage ? 'selected' : ''}>${html(stage)}</option>`).join('')}</select></label><label>My Planning Deadline<input type="date" name="${p.id}.deadline" value="${html(entry.deadline)}"><span class="quiet">Optional personal override. Published date: ${html(effectiveDeadline(p, { degree: entry.degree }) || 'No Confirmed Date for This Degree')}.</span></label></div><label>Research Notes<textarea name="${p.id}.notes" maxlength="5000" placeholder="Faculty interests, funding questions, what feels like a good fit…">${html(entry.notes)}</textarea></label><h3>My Planning Checklist</h3><div class="tasks">${checklist.map(([id, label]) => `<label class="check"><input type="checkbox" name="${p.id}.task.${id}" ${entry.tasks[id] ? 'checked' : ''}>${label}</label>`).join('')}</div><p class="quiet">${checklist.filter(([id]) => entry.tasks[id]).length} of ${checklist.length} planning steps complete. These are personal reminders; they do not verify submission or receipt.</p><button type="button" class="small" data-details="${p.id}">View Program Research</button></article>`;
+  return `<article class="panel plan-card" id="plan-${p.id}"><div class="card-top"><div><p class="eyebrow">${html(p.city)}</p><h3>${html(p.name)} · ${html(p.title)}</h3></div><button type="button" class="small" data-remove="${p.id}">Remove Program</button></div><p class="quiet">Published: ${html(deadlineText(p))}. ${sourceLink(p.sources[0]?.[1], 'Check Current Requirements')}</p><label>Degree or Program Track<select name="${p.id}.degree"><option value="">Choose a Degree for Planning</option>${p.degrees.map((degree) => `<option ${entry.degree === degree ? 'selected' : ''}>${html(degree)}</option>`).join('')}</select><span class="quiet">University policies and dates may differ by degree. Notes apply to this saved AMS listing.</span></label><div class="form-grid"><label>Planning Stage<select name="${p.id}.stage">${stages.map((stage) => `<option ${entry.stage === stage ? 'selected' : ''}>${html(stage)}</option>`).join('')}</select></label><label>My Planning Deadline<input type="date" name="${p.id}.deadline" value="${html(entry.deadline)}"><span class="quiet">Optional personal override. Published date: ${html(effectiveDeadline(p, { degree: entry.degree }) || 'No Confirmed Date for This Degree')}.</span></label></div><label>Research Notes<textarea name="${p.id}.notes" maxlength="5000" placeholder="Faculty interests, funding questions, what feels like a good fit…">${html(entry.notes)}</textarea></label><h3>My Planning Checklist</h3><div class="tasks">${checklist.map(([id, label]) => `<label class="check"><input type="checkbox" name="${p.id}.task.${id}" ${entry.tasks[id] ? 'checked' : ''}>${label}</label>`).join('')}</div><p class="quiet">${checklist.filter(([id]) => entry.tasks[id]).length} of ${checklist.length} planning steps complete. These are personal reminders; they do not verify submission or receipt.</p><div class="actions"><button type="button" class="small" data-details="${p.id}">View Program Research</button><button type="button" class="small" data-writing="${p.id}">View Statements and Questions</button></div></article>`;
 }
 function deadlineRows() {
   return savedPrograms()
@@ -229,6 +244,8 @@ function render() {
   }
   ({
     directory: drawDirectory,
+    funding: () => drawFunding(view),
+    requirements: () => drawWriting(view, plan.saved),
     compare: drawComparison,
     saved: drawSaved,
     deadlines: drawDeadlines,
@@ -257,6 +274,7 @@ function confirmDiscard() {
   return !dirty || confirm('You have unsaved changes. Leave this page and discard them?');
 }
 view.addEventListener('input', (event) => {
+  handleResearchEvent(event, view, plan.saved);
   const id = event.target.id;
   if (id === 'search') {
     filters.query = event.target.value;
@@ -271,6 +289,7 @@ view.addEventListener('input', (event) => {
   }
 });
 view.addEventListener('change', (event) => {
+  handleResearchEvent(event, view, plan.saved);
   const id = event.target.id;
   if (['area', 'region', 'sort', 'degree', 'country'].includes(id)) {
     filters[id] = event.target.value;
@@ -322,6 +341,16 @@ view.addEventListener('submit', async (event) => {
 async function actions(event) {
   const button = event.target.closest('button');
   if (!button || saving) return;
+  handleResearchEvent(event, view, plan.saved);
+  if (button.dataset.writing) {
+    if (!confirmDiscard()) return;
+    dirty = false;
+    focusWritingProgram(button.dataset.writing, plan.saved[button.dataset.writing]?.degree || '');
+    if (dialog.open) dialog.close();
+    location.hash = 'requirements';
+    render();
+    return;
+  }
   const { details, save, remove, uncompare } = button.dataset;
   if (button.dataset.page) {
     filters.page = Number(button.dataset.page);

@@ -12,6 +12,8 @@ The preview is protected and may require Vercel sign-in. Choose **Try the Studen
 
 - All 742 AMS listings in the US and Canada: mathematics and related subjects, including master’s, doctoral, bridge/postbaccalaureate and certificate routes. Citations and field-level source dates remain visible.
 - Search, pagination, research-area/region, country and degree filters; side-by-side school comparisons, including fees, fee waivers, GRE policies, funding, teaching, and program size where verified.
+- A separate **Scholarships and Fellowships** tab with eight officially sourced opportunities relevant to math, applied math, statistics, data science and CS: NSF GRFP, DOE CSGF, Hertz, NDSEG, PD Soros, Google PhD, CGRS M and CGRS D. Includes eligibility, materials, nomination routes, deadlines and source dates.
+- An **Application Requirements** tab for all 742 AMS listings, with degree-specific statement summaries, required/recommended/conditional status, published length guidance and supplemental questions where available. Published guidance covers **49 listings**; full portal-question verification is incomplete. The same guidance appears in Program Details and is reachable from Saved Programs.
 - Student account creation/sign-in, account-owned saved programs, research notes, planning profiles, and personal checklists.
 - Degree-specific confirmed deadlines, labeled personal planning dates, a sorted timeline, and calendar downloads. A doctoral deadline never silently becomes a master’s deadline.
 - Clear save controls, success/error feedback, and a responsive student-only interface.
@@ -23,6 +25,8 @@ All AMS listing tables were checked **November 23, 2026**. They include departme
 **University-source research is available for 90 listings, including the original 25; complete independent verification of every field is not finished.** The other fields are explicitly labeled **Not Verified**. Fresh primary-source checks cover additional fees, waivers, GRE statements and confirmed cycle dates. Original research retains its November 6–13 dates. [The complete field inventory](docs/AMS-VERIFICATION.md) shows coverage for every listing and field.
 
 Never read a blank as zero/no fee waiver/no GRE. AMS listing-update times are not enrollment census years. Tuition is not an application fee; funding duration is not average time to degree. Some university pages conflict or describe historical cycles, which are excluded from automatic dates. Confirm the intended cycle and exact deadline/time zone with each university.
+
+See the [funding and writing research inventory](docs/FUNDING-AND-WRITING-RESEARCH.md) for the scope, primary sources, and an explicit status for every AMS listing. Most authenticated application questions cannot be verified from public pages; unknown questions are never presented as absent.
 
 ## Preview Locally
 

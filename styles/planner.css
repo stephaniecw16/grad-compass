@@ -694,3 +694,54 @@ dialog::backdrop {
     padding: 0.6rem;
   }
 }
+
+/* Public research panes: visible prompts and checklists, without nested accordions. */
+.research-list {
+  display: grid;
+  gap: 1.4rem;
+}
+.research-list > .panel {
+  margin: 0;
+}
+.research-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+.research-list h4,
+.writing-summary h4 {
+  font-size: 1rem;
+  margin: 1.1rem 0 0.5rem;
+}
+.research-list li {
+  margin-bottom: 0.6rem;
+}
+.research-list ul {
+  padding-left: 1.3rem;
+}
+.research-dates,
+.writing-entry {
+  border-top: 1px solid var(--border, #e2e7df);
+  margin-top: 1.2rem;
+  padding-top: 0.5rem;
+}
+.writing-item {
+  border-left: 3px solid #dbe5dc;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+.research-filters label:first-child {
+  grid-column: span 2;
+}
+.research-list .actions a {
+  font-size: 0.85rem;
+}
+@media (max-width: 750px) {
+  .research-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .research-filters label:first-child {
+    grid-column: auto;
+  }
+}

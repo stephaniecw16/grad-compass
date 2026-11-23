@@ -1,16 +1,8 @@
 import { amsCheckedOn, amsDirectory } from '../catalog/catalog.js';
 import { fieldEvidence, fieldLabels, verificationSummary } from '../catalog/evidence.js';
-// Escape all source and user-entered strings before rendering. Evidence text is never HTML.
-export const html = (value) =>
-  String(value ?? '').replace(
-    /[&<>"']/g,
-    (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char],
-  );
-export function sourceLink(url, label = 'Official Source') {
-  return /^https?:\/\//.test(url || '')
-    ? `<a href="${html(url)}" target="_blank" rel="noopener noreferrer">${html(label)} ↗</a>`
-    : '';
-}
+import { html, sourceLink } from './markup.js';
+export { html, sourceLink } from './markup.js';
+import { writingSummary } from './research-workspace.js';
 export function deadlineText(p) {
   return p.deadline
     ? `${p.deadline} · ${p.kind || 'Published Date'}`
@@ -38,5 +30,5 @@ export function comparisonTable(programs) {
 }
 export function programDetails(p) {
   const coverage = verificationSummary(p);
-  return `<p class="eyebrow">${html(p.country)} · AMS #${p.ams.amsId}</p><h2 id="program-dialog-title">${html(p.name)}</h2><h3>${html(p.title)}</h3><p>${html(p.degrees.join(' · ') || 'Degree Options Not Supplied')}</p><p class="notice">${html(p.note)} ${p.curatedPhD ? 'Previously researched admissions, cost, and GRE facts apply to the original doctoral program only.' : ''}</p><p class="quiet">Field coverage: ${coverage.university} university-sourced · ${coverage.ams} AMS-reported · ${coverage.unverified} not verified. Source dates and scope appear with each field.</p><div class="actions"><button class="primary" type="button" data-save="${p.id}">Save Program</button>${sourceLink(p.officialUrl, 'Visit the University Website')}</div>${p.ams.duplicateGroup ? `<p class="notice">AMS has multiple listings for this institution/department. This is listing #${p.ams.amsId}; duplicate records are retained rather than silently combined.</p>` : ''}<div class="detail-grid">${fieldLabels.map(([key, label]) => `<div><h3>${html(label)}</h3><div class="detail-value">${compareCell(p, key)}</div></div>`).join('')}</div><h3>Program Sources</h3>${p.sources.map(([label, url]) => `<p>${sourceLink(url, label)}</p>`).join('')}<p class="quiet">All AMS listing tables were checked ${amsCheckedOn}. Department-reported figures can be stale or incomplete. A listing update date does not establish a statistics year or current admissions cycle. Unknown dates are not added to the calendar. ${sourceLink(amsDirectory, 'AMS Directory')}</p>`;
+  return `<p class="eyebrow">${html(p.country)} · AMS #${p.ams.amsId}</p><h2 id="program-dialog-title">${html(p.name)}</h2><h3>${html(p.title)}</h3><p>${html(p.degrees.join(' · ') || 'Degree Options Not Supplied')}</p><p class="notice">${html(p.note)} ${p.curatedPhD ? 'Previously researched admissions, cost, and GRE facts apply to the original doctoral program only.' : ''}</p><p class="quiet">Field coverage: ${coverage.university} university-sourced · ${coverage.ams} AMS-reported · ${coverage.unverified} not verified. Source dates and scope appear with each field.</p><div class="actions"><button class="primary" type="button" data-save="${p.id}">Save Program</button>${sourceLink(p.officialUrl, 'Visit the University Website')}</div>${p.ams.duplicateGroup ? `<p class="notice">AMS has multiple listings for this institution/department. This is listing #${p.ams.amsId}; duplicate records are retained rather than silently combined.</p>` : ''}<div class="detail-grid">${fieldLabels.map(([key, label]) => `<div><h3>${html(label)}</h3><div class="detail-value">${compareCell(p, key)}</div></div>`).join('')}</div>${writingSummary(p)}<h3>Program Sources</h3>${p.sources.map(([label, url]) => `<p>${sourceLink(url, label)}</p>`).join('')}<p class="quiet">All AMS listing tables were checked ${amsCheckedOn}. Department-reported figures can be stale or incomplete. A listing update date does not establish a statistics year or current admissions cycle. Unknown dates are not added to the calendar. ${sourceLink(amsDirectory, 'AMS Directory')}</p>`;
 }

@@ -167,3 +167,52 @@ test('the complete AMS catalog supports pagination, Canadian and degree filters,
   await page.getByLabel('Degree Type', { exact: true }).selectOption('');
   await expect(page.locator('#results .card')).toHaveCount(2);
 });
+
+test('funding tab exposes official eligibility, checklists, and closed-cycle dates', async ({
+  page,
+}) => {
+  await page.goto('/#funding');
+  await expect(
+    page.getByRole('heading', { name: 'Scholarships and Fellowships', exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('[data-fellowship]')).toHaveCount(8);
+  await page.getByRole('searchbox', { name: 'Search Funding' }).fill('CSGF');
+  await expect(page.locator('[data-fellowship]')).toHaveCount(1);
+  await expect(page.locator('#funding-results')).toContainText('2027-01-07');
+  await expect(page.locator('#funding-results')).toContainText(
+    'applicant-sent copies are not accepted',
+  );
+  await page.getByRole('searchbox', { name: 'Search Funding' }).fill('NSF');
+  await expect(page.locator('#funding-results')).toContainText('Deadline Passed');
+  await expect(page.locator('#funding-results')).toContainText('2026-10-16');
+  await expect(page.locator('#funding-results a').first()).toHaveAttribute('href', /nsf26-526/);
+  await page.getByRole('searchbox', { name: 'Search Funding' }).fill('No such award');
+  await expect(page.getByRole('heading', { name: 'No Matching Funding' })).toBeVisible();
+});
+
+test('writing requirements show scoped prompts, unknowns, and saved-program navigation', async ({
+  page,
+}) => {
+  await page.goto('/#requirements');
+  await expect(page.locator('#writing-count')).toContainText('742 matching');
+  await page.getByRole('searchbox', { name: 'Search Application Requirements' }).fill('Stanford');
+  await page.getByLabel('Research Coverage').selectOption('Published Guidance');
+  await expect(page.locator('#writing-results')).toContainText('1–2 paragraphs');
+  await page.getByLabel('Degree to Research').selectOption('Masters');
+  await expect(page.getByRole('heading', { name: 'No Matching Programs' })).toBeVisible();
+  await signup(page, 'writing-demo@example.invalid', 'Fictional Writing Researcher');
+  await page.getByRole('link', { name: 'Program Directory', exact: true }).click();
+  await page.getByRole('searchbox', { name: 'Search Programs' }).fill('Brown');
+  await page.locator('[data-save="brown-math"]').click();
+  await expect(page.locator('#toast')).toContainText('Program Saved');
+  await page.getByRole('link', { name: 'Saved Programs', exact: true }).click();
+  await page.getByRole('button', { name: 'View Statements and Questions' }).click();
+  await expect(page.locator('#writing-results')).toContainText('Mathematical Idea Video');
+  await expect(page.locator('[data-writing-program]')).toHaveCount(1);
+  await page.getByRole('button', { name: 'Show All Programs' }).click();
+  await page.getByLabel('Saved Programs Only').check();
+  await expect(page.locator('[data-writing-program]')).toHaveCount(1);
+  await page.reload();
+  await page.getByRole('searchbox', { name: 'Search Application Requirements' }).fill('Baylor');
+  await expect(page.locator('#writing-results')).toContainText('Not Verified');
+});
