@@ -1,0 +1,44 @@
+name: GradApp (Student) Checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: student-checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  student-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          package-manager-cache: false
+      - name: Install pinned dependencies
+        run: |
+          npm install --global pnpm@11.25.0
+          pnpm install --frozen-lockfile
+      - name: Check student source, data, and formatting
+        run: |
+          pnpm check
+          pnpm test:planner
+          pnpm lint
+          pnpm format:check
+          pnpm typecheck
+          python3 scripts/repository_audit.py
+          python3 scripts/test_git_tools.py
+      - name: Build student website
+        run: pnpm build
+        env:
+          SUPABASE_URL: https://fictional.supabase.co
+          SUPABASE_PUBLISHABLE_KEY: sb_publishable_ci_fixture
+      - name: Install test browsers
+        run: pnpm exec playwright install --with-deps chromium webkit
+      - name: Verify student journeys
+        run: pnpm test:e2e

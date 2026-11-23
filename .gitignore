@@ -1,0 +1,47 @@
+# Dependencies, generated builds, and local caches
+node_modules/
+dist/
+.DS_Store
+__pycache__/
+*.py[cod]
+.pnpm-store/
+.venv/
+*.log
+.vscode/
+.idea/
+
+# Configuration and private information
+.env
+.env.*
+!.env.example
+public-config.json
+.vercel/
+.codex/
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+private/
+uploads/
+exports/
+backups/
+artifacts/
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
+*.docx
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.webp
+*-receipt.json
+gradapp-profile*.json
+
+# Browser output may contain personal session data
+test-results/
+playwright-report/

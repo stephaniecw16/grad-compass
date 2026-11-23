@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A free place to discover, compare, and plan for mathematics graduate programs."
+    />
+    <title>GradApp · Find Your Next Chapter</title>
+    <link rel="stylesheet" href="styles/planner.css" />
+    <script type="module" src="src/planner/planner.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to Content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="gamma" aria-hidden="true">γ</span> GradApp</a
+      ><span class="brand-note">Your Math Grad School Planner</span>
+      <div id="account-links">
+        <a href="account.html?mode=signin">Sign In</a
+        ><a class="button primary small" href="account.html">Create Free Account</a>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero" id="hero">
+        <div>
+          <p class="eyebrow">A Little Clarity for Your Next Chapter</p>
+          <h1>Find the Math Program<br />That Fits You.</h1>
+          <p class="hero-copy">
+            Explore real graduate programs, compare what matters, and keep your research and
+            deadlines together. Free for students.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#directory"
+              >Explore 25 Programs <span aria-hidden="true">↗</span></a
+            ><a href="account.html#demo">Try the Student Demo</a>
+          </div>
+          <p class="quiet">
+            Apply through each university’s official website. GradApp is your planning space.
+          </p>
+        </div>
+        <aside class="hero-note" aria-label="Planning overview">
+          <span class="note-symbol" aria-hidden="true">∑</span>
+          <p>Big Questions.<br />Clearer Choices.</p>
+          <div><span>01</span> Discover Your Options</div>
+          <div><span>02</span> Compare Your Priorities</div>
+          <div><span>03</span> Make Your Plan</div>
+        </aside>
+      </section>
+      <nav class="tabs" aria-label="Student Workspace">
+        <a href="#directory">Program Directory</a
+        ><a href="#compare">Compare Schools <span id="compare-count">0</span></a
+        ><a href="#saved">Saved Programs</a><a href="#deadlines">Deadlines</a
+        ><a href="#profile">My Profile</a><a href="#about">About GradApp</a>
+      </nav>
+      <div id="account-status" class="account-status" role="status">
+        Browse and compare without an account.
+      </div>
+      <div id="workspace">
+        <section id="view" aria-live="polite"><p>Loading the Program Directory…</p></section>
+      </div>
+    </main>
+    <footer>
+      <span class="brand"><span class="gamma" aria-hidden="true">γ</span> GradApp</span>
+      <p>Independent, free student planning. Admissions review is a separate AppHelper project.</p>
+      <a href="#about">Sources and Project Scope</a>
+    </footer>
+    <dialog id="program-dialog" aria-labelledby="program-dialog-title">
+      <div id="program-details"></div>
+      <div class="dialog-footer">
+        <button id="close-dialog" type="button">Close Details</button>
+      </div>
+    </dialog>
+    <div id="toast" role="status" aria-live="polite" hidden></div>
+    <noscript
+      ><p>
+        Please enable JavaScript to search and compare programs. You can also browse the
+        <a href="https://www.ams.org/find-graduate-programs?prog_type=PHD"
+          >AMS Graduate Program Directory</a
+        >.
+      </p></noscript
+    >
+  </body>
+</html>

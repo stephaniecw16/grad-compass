@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Free Account · GradApp</title>
+    <link rel="stylesheet" href="styles/planner.css" />
+    <script type="module" src="src/planner/account.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="gamma" aria-hidden="true">γ</span> GradApp</a
+      ><a href="index.html#directory">Explore Programs</a>
+    </header>
+    <main class="account-page">
+      <p class="eyebrow">Your Research, in One Place</p>
+      <h1>Make Room for Your Next Chapter.</h1>
+      <p>
+        Keep a private shortlist, research notes, and personal deadlines. Online accounts save your
+        plan across devices.
+      </p>
+      <form id="account-form" class="panel">
+        <div class="form-grid">
+          <label
+            >Account Action<select id="account-mode">
+              <option value="signup">Create an Account</option>
+              <option value="signin">Sign In</option>
+            </select></label
+          ><label
+            >Save Location<select id="account-scope">
+              <option value="online">Online Account · Across Devices</option>
+              <option value="local">Local Preview · This Browser Only</option>
+            </select></label
+          >
+        </div>
+        <p id="local-explanation" class="notice" hidden>
+          Local accounts are only a preview. Their data stays in this browser and cannot be
+          recovered on another device. Use a fictional identity and a unique demo password.
+        </p>
+        <label id="name-field"
+          >Your Name<input name="name" autocomplete="name" maxlength="120" required /></label
+        ><label
+          >Email Address<input
+            name="email"
+            type="email"
+            autocomplete="email"
+            maxlength="254"
+            required /></label
+        ><label
+          >Password<input
+            name="password"
+            type="password"
+            minlength="10"
+            maxlength="128"
+            autocomplete="new-password"
+            required
+        /></label>
+        <p class="quiet">
+          Use at least 10 characters. Online sign-up may require email confirmation.
+        </p>
+        <p id="account-message" role="status" aria-live="polite"></p>
+        <div class="save-bar">
+          <button class="primary" id="account-submit" type="submit">Create My Free Account</button>
+        </div>
+      </form>
+      <section id="demo" class="panel">
+        <h2>Just Looking Around?</h2>
+        <p>
+          Try a fictional student planning account. Demo notes stay in this browser; all 25 programs
+          are real.
+        </p>
+        <button id="demo-start" type="button">Open the Student Demo</button>
+      </section>
+      <p><a href="index.html#about">About GradApp and AppHelper</a></p>
+    </main>
+  </body>
+</html>

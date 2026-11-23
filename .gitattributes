@@ -1,0 +1,3 @@
+# Keep maintained source consistent; preserve third-party bundles and licenses verbatim.
+* text=auto eol=lf
+vendor/** -text -whitespace

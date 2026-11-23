@@ -1,0 +1,4 @@
+# esbuild's pinned registry package installs its platform-specific executable.
+# New versions or dependencies still require an explicit build-script decision.
+allowBuilds:
+  esbuild@0.28.2: true
