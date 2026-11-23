@@ -102,9 +102,15 @@ export function fieldEvidence(program, key) {
       ? ams(
           p,
           value,
-          'Selected research/subject categories, separately scoped to each listed degree; not an exhaustive faculty research inventory.',
+          'Selected structured research categories by degree. Additional free-text specialties may appear in AMS; this is not exhaustive.',
         )
-      : unknown(key);
+      : report.tracks.some((t) => t.otherAreasReported)
+        ? ams(
+            p,
+            'Additional specialties are described in AMS free text; consult the source.',
+            'Free-text instructions are not promoted into verified subject tags.',
+          )
+        : unknown(key);
   }
   if (key === 'amsGre') {
     const value = tracks(p, (t) => t.greReported);

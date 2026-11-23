@@ -10,6 +10,16 @@ from urllib.parse import urlsplit
 from pathlib import Path
 
 LEVELS={'post':'Bridge/Postbaccalaureate','masters':'Masters','doctoral':'Doctoral','certificate':'Certificate'}
+# Exact category labels exposed by AMS's degree/specialty controls. The "Other"
+# free-text box also contains deadlines, curricula and marketing, not just topics.
+SUBJECTS={
+ 'Mathematics','Applied Mathematics','K-12 Teaching','Actuarial Science','Statistics',
+ 'Biostatistics','Operations Research','Computer Science','Data Science',
+ 'Algebra/Number Theory','Real, Complex, Functional, Harmonic Analysis (and Topological Groups)',
+ 'Geometry/Topology','Discrete Math/Combinatorics/Logic/Computer Science','Probability',
+ 'Biostatistics/Statistics','Numerical Analysis/Approximations','Linear, Non-linear Optimization/Control',
+ 'Differential, Integral, Difference Equations','Mathematics Education',
+}
 
 def clean(value):
     for _ in range(6):
@@ -48,8 +58,9 @@ def convert(record):
         subject=next((row['cells'][1] for row in rows if row['cells'][0].startswith('The department encourages applications') and len(row['cells'])>1),'')
         subjects=[clean(s) for s in subject.split(' · ') if clean(s)]
         # Free-text "Other" descriptions are not copied as a program narrative.
-        subjects=[s[:160] for s in subjects if len(s)<=160]
-        tracks.append({'type':label,'areas':subjects,'online':field(rows,'Is the program offered online?') or None,
+        other_reported=any(s not in SUBJECTS and s not in {'None','Other','None.'} for s in subjects)
+        subjects=[s for s in subjects if s in SUBJECTS]
+        tracks.append({'type':label,'areas':subjects,'otherAreasReported':other_reported,'online':field(rows,'Is the program offered online?') or None,
           'greReported':field(rows,'GRE requirement') or None,
           'fullTime':number(field(rows,'Full-time')),'partTime':number(field(rows,'Part-time')),
           'firstYear':number(field(rows,'First year')),

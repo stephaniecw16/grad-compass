@@ -2,7 +2,7 @@
 
 This is the standalone GradApp (Student) website, extracted from the verified student-planner version in the original GradApp repository. The active modules, catalog, styles and tests are unchanged in behavior. Legacy portal source, real user files and secrets were not copied.
 
-Use the commands in [README](../README.md). Playwright runs five fictional journeys in both Chromium and WebKit: public research/comparison; signup and plan/profile/checklist/deadline persistence; separate local accounts and repeat sign-in; visitor-to-demo continuation and retired routes; mobile width and unsaved changes. External requests are refused in this suite.
+Use the commands in [README](../README.md). Playwright runs six fictional journeys in both Chromium and WebKit: public research/comparison; signup and plan/profile/checklist/deadline persistence; separate local accounts and repeat sign-in; visitor-to-demo continuation and retired routes; mobile width and unsaved changes. External requests are refused in this suite.
 
 `pnpm check` verifies browser/Node syntax, local references, and the hosted dependency allowlist. `pnpm test:planner` validates dates, bounded saved records, calendar export, and the absence of portal modules from the build. ESLint and Prettier cover maintained source. TypeScript checks the independent student planning data contracts; runtime normalization validates actual records.
 
@@ -23,3 +23,5 @@ Research cache texts and raw captures stay outside Git. The link audit honors ro
 Planning schema version 2 adds degree selection. `protect-expanded-plans.sql`, applied to Pilot, stops an old 25-program preview from dropping new saved program IDs during a downgrade save. Original data is not deleted. `scripts/test_catalog_cloud.mjs` is an opt-in verification using external ignored config/fictional-account paths; it checks expanded persistence, two-account isolation, stale saves and downgrade rejection, then restores fixture contents.
 
 TypeScript covers student data contracts; model tests cover catalog completeness, source/unknown invariants, malformed URL rejection, preserved IDs and degree-specific dates. The 24-card pagination limit is presentation only; all 742 entries remain searchable and savable.
+
+Deployment protection must use `ssoProtection.deploymentType = "all"` for the student project. The earlier all-except-production-alias default did not protect the stable main URL. Verify the stable alias with a request that has no cookies or authorization; it must redirect to Vercel sign-in, not serve the catalog. Keep this separate from normal signed-in browser verification.

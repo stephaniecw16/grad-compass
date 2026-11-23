@@ -1,8 +1,8 @@
 # GradApp (Student)
 
-**Full AMS Catalog: 742 Listings · 1,295 Advertised Degree Options**
+**[Open GradApp (Student) — Full AMS Directory Preview](https://gradapp-student.vercel.app/)**
 
-[Previous 25-Program Preview](https://gradapp-3b23d5042-grad-app1.vercel.app/) · The expanded site is being built in its own protected GradApp (Student) Vercel project. The current full-catalog preview link will be recorded after deployment.
+742 AMS Listings · 1,295 Advertised Degree Options
 
 A free student website to discover, research, compare, and keep track of mathematics graduate programs. This is the separate student-site repository, independent of [AppHelper](https://github.com/stephaniecw16/apphelper), the application-review project.
 
@@ -55,7 +55,7 @@ Building requires the two browser-safe environment values; output is the allowli
 | Folder | Purpose |
 | --- | --- |
 | `src/planner/` | Accounts, planning records, persistence, directory/comparison rendering, and navigation |
-| `src/catalog/` | The 25 sourced real program records and comparison/fee/GRE facts |
+| `src/catalog/` | Full AMS listing data, the original 25 overlays, and field-level university/AMS evidence |
 | `src/workspaces/` | Compatible browser-local student demo account storage |
 | `src/types/` | Student planning data contracts |
 | `styles/` | Student website appearance |

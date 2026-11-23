@@ -9,7 +9,7 @@
 - Reviewed additional university fee/waiver and GRE statements, plus explicit-cycle deadlines. University-source fields now exist for 90 listings; full independent verification of every field is not claimed. Published a coverage inventory for all 742 records.
 - Corrected Acadia’s conflicting province using its university address. Kept Minnesota Statistics’ contradictory cycle wording unverified. Distinguished Washington mathematics master’s/doctoral deadlines and Pitt statistics deadlines.
 - Added version-2 plan protection so older previews cannot overwrite expanded saved lists. Tested only with the reserved fictional accounts; preserved account ownership and existing record contents.
-- Connected a dedicated protected GradApp (Student) Vercel project to the separate repository, without a public release or paid-service upgrade. Verification and the current preview are recorded after the final build.
+- Connected a dedicated protected GradApp (Student) Vercel project to the separate repository, without a public release or paid-service upgrade. The new protected preview is https://gradapp-student.vercel.app/ . Source/model, browser, cloud-isolation and old-client protection checks passed. A hosted review found free-text prose mixed into research categories; filters now use a short normalized taxonomy.
 
 ## November 23, 2026 — Separate GradApp (Student) Repository
 

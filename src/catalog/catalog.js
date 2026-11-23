@@ -110,6 +110,21 @@ function country(location) {
       ? 'United States'
       : 'Not Listed';
 }
+// Directory filters use a short, consistent taxonomy. Original source categories
+// remain unchanged in the evidence rows, with their degree scope and citations.
+const areaLabels = {
+  'Algebra/Number Theory': 'Algebra and Number Theory',
+  'Algebra & number theory': 'Algebra and Number Theory',
+  'Real, Complex, Functional, Harmonic Analysis (and Topological Groups)': 'Analysis',
+  'Geometry/Topology': 'Geometry and Topology',
+  'Geometry & topology': 'Geometry and Topology',
+  'Discrete Math/Combinatorics/Logic/Computer Science': 'Discrete Math, Logic and Computer Science',
+  'Biostatistics/Statistics': 'Statistics and Biostatistics',
+  'Applied mathematics': 'Applied Mathematics',
+  'Numerical Analysis/Approximations': 'Numerical Analysis',
+  'Linear, Non-linear Optimization/Control': 'Optimization and Control',
+  'Differential, Integral, Difference Equations': 'Differential Equations',
+};
 const duplicateCounts = new Map();
 for (const p of amsListings) {
   const key = (p.institution + '|' + p.department).toLowerCase();
@@ -137,7 +152,7 @@ export const programs = amsListings.map((ams, index) => {
     city: corrections.location?.value || old?.city || ams.location || 'Location Not Listed',
     country: country(correctedLocation),
     region: region(correctedLocation),
-    areas: [...new Set([...(old?.areas || []), ...areas])],
+    areas: [...new Set([...(old?.areas || []), ...areas].map((area) => areaLabels[area] || area))],
     deadlinesByDegree,
     deadline: corrections.deadline?.date || old?.deadline || null,
     reported:

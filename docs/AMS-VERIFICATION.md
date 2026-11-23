@@ -11,7 +11,7 @@ This is an evidence inventory, **not a claim that all fields are independently v
 | Listed Degree Options | 5 | 737 | 0 |
 | Department / Program | 0 | 742 | 0 |
 | Location | 26 | 716 | 0 |
-| Areas of Expertise | 1 | 456 | 285 |
+| Areas of Expertise | 1 | 452 | 289 |
 | University GRE Policy · Overall | 15 | 0 | 727 |
 | GRE General | 44 | 0 | 698 |
 | GRE Math Subject | 46 | 0 | 696 |
@@ -177,7 +177,7 @@ Counts below refer to 24 comparison fields, not entire programs certified as cur
 | Fayetteville State University — Math & Comp Sci Dept | [187](https://www.ams.org/find-graduate-programs?search=1#school_187) | 0 | 4 | 20 | Not supplied |
 | Florida Atlantic University — Department of Mathematics and Statistics | [6326](https://www.ams.org/find-graduate-programs?search=1#school_6326) | 0 | 11 | 13 | Sep 29 2025 01:33PM |
 | Florida Gulf Coast University — Dept of Math | [188](https://www.ams.org/find-graduate-programs?search=1#school_188) | 0 | 4 | 20 | Not supplied |
-| Florida Gulf Coast University — Mathematics | [875](https://www.ams.org/find-graduate-programs?search=1#school_875) | 0 | 10 | 14 | Sep 17 2025 08:40AM |
+| Florida Gulf Coast University — Mathematics | [875](https://www.ams.org/find-graduate-programs?search=1#school_875) | 0 | 9 | 15 | Sep 17 2025 08:40AM |
 | Florida Institute of Technology — Dept of Math Sci | [197](https://www.ams.org/find-graduate-programs?search=1#school_197) | 1 | 11 | 12 | Dec 6 2022 01:23PM |
 | Florida International University — Dept of Math & Stat | [190](https://www.ams.org/find-graduate-programs?search=1#school_190) | 0 | 4 | 20 | Not supplied |
 | Florida International University — Dept of Statistics | [191](https://www.ams.org/find-graduate-programs?search=1#school_191) | 0 | 4 | 20 | Not supplied |
@@ -339,7 +339,7 @@ Counts below refer to 24 comparison fields, not entire programs certified as cur
 | Princeton University — Mathematics | [682](https://www.ams.org/find-graduate-programs?search=1#school_682) | 5 | 11 | 8 | Sep 23 2020 12:12PM |
 | Princeton University — Prog in Applied & Comp Math | [455](https://www.ams.org/find-graduate-programs?search=1#school_455) | 1 | 11 | 12 | Dec 6 2022 01:43PM |
 | Purdue Univ Fort Wayne — Dept of Math Sci | [250](https://www.ams.org/find-graduate-programs?search=1#school_250) | 0 | 4 | 20 | Not supplied |
-| Purdue University — Dept of Math | [457](https://www.ams.org/find-graduate-programs?search=1#school_457) | 0 | 11 | 13 | Jul 9 2025 04:13PM |
+| Purdue University — Dept of Math | [457](https://www.ams.org/find-graduate-programs?search=1#school_457) | 0 | 10 | 14 | Jul 9 2025 04:13PM |
 | Purdue University — Dept of Statistics | [1065](https://www.ams.org/find-graduate-programs?search=1#school_1065) | 0 | 11 | 13 | Sep 8 2023 08:54AM |
 | Purdue University — School of Industrial Engineering | [458](https://www.ams.org/find-graduate-programs?search=1#school_458) | 0 | 11 | 13 | Sep 21 2020 10:20AM |
 | Purdue University Northwest — Dept of Mathematics and Statistics | [456](https://www.ams.org/find-graduate-programs?search=1#school_456) | 0 | 9 | 15 | Oct 15 2020 02:16PM |
@@ -594,7 +594,7 @@ Counts below refer to 24 comparison fields, not entire programs certified as cur
 | University of Michigan — Department of Biostatistics | [6253](https://www.ams.org/find-graduate-programs?search=1#school_6253) | 0 | 11 | 13 | Oct 22 2025 03:39PM |
 | University of Michigan — Department of Mathematics | [1004](https://www.ams.org/find-graduate-programs?search=1#school_1004) | 0 | 11 | 13 | Oct 22 2025 03:39PM |
 | University of Michigan — Department of Statistics | [6269](https://www.ams.org/find-graduate-programs?search=1#school_6269) | 0 | 11 | 13 | Nov 12 2026 09:53AM |
-| University of Michigan-Dearborn — Department of Mathematics and Statistics | [8567](https://www.ams.org/find-graduate-programs?search=1#school_8567) | 0 | 11 | 13 | Sep 18 2026 08:31AM |
+| University of Michigan-Dearborn — Department of Mathematics and Statistics | [8567](https://www.ams.org/find-graduate-programs?search=1#school_8567) | 0 | 10 | 14 | Sep 18 2026 08:31AM |
 | University of Minnesota — Division of Biostatistics and Health Data Science, SPH | [8585](https://www.ams.org/find-graduate-programs?search=1#school_8585) | 0 | 11 | 13 | Sep 18 2026 08:32AM |
 | University of Minnesota — School of Mathematics | [8474](https://www.ams.org/find-graduate-programs?search=1#school_8474) | 0 | 11 | 13 | Sep 17 2026 12:53PM |
 | University of Minnesota — School of Statistics | [6277](https://www.ams.org/find-graduate-programs?search=1#school_6277) | 1 | 8 | 15 | Sep 17 2025 03:58PM |
@@ -676,7 +676,7 @@ Counts below refer to 24 comparison fields, not entire programs certified as cur
 | University of South Florida — Dept of Math & Stat | [515](https://www.ams.org/find-graduate-programs?search=1#school_515) | 0 | 4 | 20 | Not supplied |
 | University of Southern Maine — Dept of Math & Stat | [519](https://www.ams.org/find-graduate-programs?search=1#school_519) | 0 | 4 | 20 | Not supplied |
 | University of Southern Mississippi — Dept of Comp Sci & Stat | [524](https://www.ams.org/find-graduate-programs?search=1#school_524) | 0 | 4 | 20 | Not supplied |
-| University of Southern Mississippi — School of Mathematics and Natural Sciences | [1093](https://www.ams.org/find-graduate-programs?search=1#school_1093) | 0 | 11 | 13 | Sep 25 2023 01:02PM |
+| University of Southern Mississippi — School of Mathematics and Natural Sciences | [1093](https://www.ams.org/find-graduate-programs?search=1#school_1093) | 0 | 10 | 14 | Sep 25 2023 01:02PM |
 | University of Tennessee — Business Analytics & Statistics | [558](https://www.ams.org/find-graduate-programs?search=1#school_558) | 0 | 4 | 20 | Jun 24 2025 12:04PM |
 | University of Tennessee — Dept of Business Analytics and Statistics | [559](https://www.ams.org/find-graduate-programs?search=1#school_559) | 0 | 7 | 17 | Jan 13 2021 12:53PM |
 | University of Tennessee at Chattanooga — Department of Mathematics | [556](https://www.ams.org/find-graduate-programs?search=1#school_556) | 0 | 11 | 13 | Dec 6 2022 01:59PM |

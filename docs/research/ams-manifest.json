@@ -9,7 +9,7 @@
     "Bridge/Postbaccalaureate": 23,
     "Certificate": 112
   },
-  "sourceDataSha256": "771df15ffcff051522393e505c60a944f78afde35b984794aec83fb54af23ade",
+  "sourceDataSha256": "dba4a08f834f962866b10d9ae7a9898f1d2dfab24d272694e63fca732e3e822d",
   "importedListingIds": [
     "7906",
     "6201",
@@ -776,8 +776,8 @@
     "areas": {
       "label": "Areas of Expertise",
       "university": 1,
-      "ams": 456,
-      "unverified": 285
+      "ams": 452,
+      "unverified": 289
     },
     "grePolicy": {
       "label": "University GRE Policy · Overall",

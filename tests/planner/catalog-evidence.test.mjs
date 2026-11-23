@@ -97,3 +97,14 @@ test('current multi-degree dates and the version-2 plan marker survive normaliza
     'unverified',
   );
 });
+
+test('research filters contain subject tags, not AMS free-text deadlines or application instructions', () => {
+  for (const p of programs)
+    for (const tag of p.areas) {
+      assert.ok(tag.length < 85);
+      assert.doesNotMatch(
+        tag,
+        /https?:|deadline|applicant|must|thesis is required|please|year prior|comprehensive examination/i,
+      );
+    }
+});
