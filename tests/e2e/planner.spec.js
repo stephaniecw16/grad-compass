@@ -216,3 +216,23 @@ test('writing requirements show scoped prompts, unknowns, and saved-program navi
   await page.getByRole('searchbox', { name: 'Search Application Requirements' }).fill('Baylor');
   await expect(page.locator('#writing-results')).toContainText('Not Verified');
 });
+
+test('account entry offers guest comparison even when online account access is unavailable', async ({
+  page,
+}) => {
+  await page.route('**/public-config.json', (route) =>
+    route.fulfill({ status: 503, body: 'Unavailable' }),
+  );
+  await page.goto('/account.html');
+  await expect(page.getByRole('heading', { name: 'Browse Without an Account' })).toBeVisible();
+  await page.getByRole('link', { name: 'Continue Without an Account', exact: true }).click();
+  await expect(page.locator('#account-status')).toContainText('No Account Needed');
+  await expect(page.locator('#results .card')).toHaveCount(24);
+  await page.getByRole('searchbox', { name: 'Search Programs' }).fill('Brown');
+  await page.locator('[data-compare="brown-math"]').check();
+  await page.locator('[data-compare="brown-applied"]').check();
+  await page.getByRole('link', { name: /Compare Schools/ }).click();
+  await expect(page.getByRole('table').locator('thead th')).toHaveCount(3);
+  await expect(page).toHaveURL(/#compare$/);
+  await expect(page.locator('#view')).not.toContainText('Create Free Account');
+});

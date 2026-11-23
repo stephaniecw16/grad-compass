@@ -1,5 +1,12 @@
 # Daily Progress
 
+## November 23, 2026 — Clear Guest Browsing
+
+- Made no-account browsing and comparison explicit on the homepage and workspace.
+- Added Continue Without an Account and Compare Schools as a Guest links above the account form. Kept the fictional saving demo optional and corrected its obsolete 25-program wording.
+- Account-service errors now preserve a clear guest-browsing message. Personal saves and profiles still require the appropriate account; preview protection is unchanged.
+- Verified fresh-visitor comparison and browsing when account configuration is unavailable; existing planning flows remain covered by browser tests.
+
 ## November 23, 2026 — Funding and Application-Writing Research
 
 - Added separate Scholarships and Fellowships and Application Requirements tabs, available without signing in. Funding is limited to opportunities relevant to mathematics, applied mathematics, statistics, data science and computer science; clarified that CSF meant DOE CSGF.

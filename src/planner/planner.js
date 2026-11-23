@@ -502,7 +502,7 @@ async function start() {
   } catch (error) {
     storageError = error.message;
     document.querySelector('#account-status').textContent =
-      error.message + ' You can still browse and compare.';
+      'No Account Needed · Browsing and comparisons are available. Online account access is temporarily unavailable.';
   }
   ready = true;
   render();

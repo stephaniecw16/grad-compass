@@ -8,6 +8,8 @@ A free student website to discover, research, compare, and keep track of mathema
 
 The preview is protected and may require Vercel sign-in. Choose **Try the Student Demo** for a fictional browser-local account, or create/sign in to an online student account. Linking this preview does not make it public.
 
+**No GradApp account is required to browse or compare programs, scholarships, or application requirements.** An account is only needed to save personal planning information. The account page includes an explicit guest-browsing path. Vercel sign-in still protects the preview itself; that is separate from a GradApp account.
+
 ## What It Includes
 
 - All 742 AMS listings in the US and Canada: mathematics and related subjects, including master’s, doctoral, bridge/postbaccalaureate and certificate routes. Citations and field-level source dates remain visible.

@@ -31,3 +31,11 @@ Hosted verification: the dedicated GradApp (Student) build is ready at https://g
 - Source/dependency checks, ESLint, TypeScript contracts, formatting, static build and seven Git-safeguard tests passed. Browser tests required permission to start the local preview; the initial restricted launch failed before any tests ran.
 - Existing student plans, storage schema, account permissions and cloud functions were not changed. No live student accounts or application portals were accessed; no forms, emails or applications were submitted. No paid services were added.
 - Research remains incomplete: 693 AMS listings have no published writing guidance in this dataset, and even reviewed public pages may omit authenticated supplemental questions. Published guidance must not be described as a fully verified current application.
+
+
+## November 23, 2026 — No-Account Browsing and Comparison
+
+- Confirmed that public directory, comparison, funding and writing research routes require no GradApp account. Personal saves remain account-owned.
+- Added clear guest entry links above the account form and no-account messaging on both planner entry pages. Kept the fictional account demo optional.
+- All 18 Chromium/WebKit browser cases passed, including fresh-visitor comparison after the account configuration endpoint returns HTTP 503. All 19 model/research cases, syntax/dependency checks, lint, formatting, type contracts and static build passed.
+- No authentication permission, database, billing or Vercel protection settings changed. Vercel preview sign-in is separate from a GradApp account.
