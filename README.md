@@ -4,6 +4,8 @@
 
 742 AMS Listings · 1,295 Advertised Degree Options
 
+Website offshoot of GradApp; name in progress
+
 A free student website to discover, research, compare, and keep track of mathematics graduate programs. This is the separate student-site repository, independent of [AppHelper](https://github.com/stephaniecw16/apphelper), the application-review project.
 
 The preview is protected and may require Vercel sign-in. Choose **Try the Student Demo** for a fictional browser-local account, or create/sign in to an online student account. Linking this preview does not make it public.
