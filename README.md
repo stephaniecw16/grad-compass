@@ -35,6 +35,14 @@ Never read a blank as zero/no fee waiver/no GRE. AMS listing-update times are no
 
 See the [funding and writing research inventory](docs/FUNDING-AND-WRITING-RESEARCH.md) for the scope, primary sources, and an explicit status for every AMS listing. Most authenticated application questions cannot be verified from public pages; unknown questions are never presented as absent.
 
+## Beta Testing and Profile Storage
+
+The November 24 beta pass covered the student directory/comparisons, research tabs, local account/plan/profile workflows, deadlines, calendar export, mobile layout and error recovery. **26 Chrome/Safari browser cases and 23 data/model checks passed.** Two reserved fictional online accounts also saved profiles through Chromium and retrieved their distinct private profiles in fresh Safari sessions; cross-account/anonymous access was denied. Fixed retrying sign-in after a temporary account-configuration failure and clarified profile save-location labels.
+
+**Online profile saving is already connected.** Choose **Online Account · Across Devices**, sign in, edit **My Profile**, and press **Save My Profile**. Supabase stores the name, college and interests with the account-owned saved plan. **Local Preview** accounts stay in one browser and do not automatically migrate to an online account. The email belongs to the sign-in account; document uploads and application records are outside this student site.
+
+See the [beta report](docs/BETA-TEST-2026-11-24.md) and [public-launch steps](docs/PUBLIC-LAUNCH.md). Password reset, full data export/deletion, owner-reviewed privacy information and real confirmation-email delivery are launch work. The preview remains protected; public launch and paid services still need approval.
+
 ## Preview Locally
 
 ```sh

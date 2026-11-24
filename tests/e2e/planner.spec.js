@@ -263,3 +263,96 @@ test('guests filter professional contacts, open sourced department details and c
   ).toBeVisible();
   await expect(page.locator('table a[href^="mailto:"]').first()).toBeVisible();
 });
+
+test('online sign-in can retry after a temporary account configuration failure', async ({
+  page,
+}) => {
+  let configRequests = 0;
+  await page.route('**/public-config.json', (route) => {
+    configRequests++;
+    return route.fulfill(
+      configRequests === 1
+        ? { status: 503, body: 'Temporarily unavailable' }
+        : {
+            json: {
+              supabaseUrl: 'https://fictional.supabase.co',
+              supabasePublishableKey: 'sb_publishable_test_fixture',
+            },
+          },
+    );
+  });
+  await page.route('https://fictional.supabase.co/auth/v1/token*', (route) =>
+    route.fulfill({
+      status: 400,
+      json: { code: 'invalid_credentials', msg: 'Invalid login credentials' },
+    }),
+  );
+  await page.goto('/account.html?mode=signin');
+  await page.getByLabel('Email Address').fill('beta-retry@example.invalid');
+  await page.getByLabel('Password', { exact: true }).fill('Fictional-Retry-Password');
+  await page.getByRole('button', { name: 'Sign In', exact: true }).click();
+  await expect(page.locator('#account-message')).toContainText('Online accounts are unavailable');
+  await page.getByRole('button', { name: 'Sign In', exact: true }).click();
+  await expect(page.locator('#account-message')).toContainText('Invalid login credentials');
+  expect(configRequests).toBe(2);
+});
+
+test('failed local profile saves preserve edits and can be retried', async ({ page }) => {
+  await signup(page, 'beta-profile@example.invalid', 'Fictional Beta Profile');
+  await page.getByRole('link', { name: 'My Profile', exact: true }).first().click();
+  await page.getByLabel('Your Name').fill('Fictional Profile Recovery');
+  await page.getByLabel('College or University').fill('Example Beta College');
+  await page.getByLabel('Mathematical Interests').fill('Geometry and mathematical statistics');
+  await page.evaluate(() => {
+    window.betaOriginalSetItem = Storage.prototype.setItem;
+    Storage.prototype.setItem = function (key, value) {
+      if (key.startsWith('gradapp.student-planner.v1.'))
+        throw new DOMException('Fictional storage quota failure', 'QuotaExceededError');
+      return window.betaOriginalSetItem.call(this, key, value);
+    };
+  });
+  await page.getByRole('button', { name: 'Save My Profile' }).click();
+  await expect(page.locator('#save-state')).toContainText('Fictional storage quota failure');
+  await expect(page.getByLabel('College or University')).toHaveValue('Example Beta College');
+  await expect(page.getByRole('button', { name: 'Save My Profile' })).toBeEnabled();
+  await page.evaluate(() => {
+    Storage.prototype.setItem = window.betaOriginalSetItem;
+  });
+  await page.getByRole('button', { name: 'Save My Profile' }).click();
+  await expect(page.locator('#save-state')).toHaveText('All Changes Saved');
+  await page.reload();
+  await expect(page.getByLabel('College or University')).toHaveValue('Example Beta College');
+  await expect(page.getByLabel('Mathematical Interests')).toHaveValue(
+    'Geometry and mathematical statistics',
+  );
+});
+
+test('empty searches, three-school comparisons and removing saved programs work', async ({
+  page,
+}) => {
+  await page.goto('/#directory');
+  await page
+    .getByRole('searchbox', { name: 'Search Programs' })
+    .fill('No matching fictional program 123456');
+  await expect(page.locator('#result-count')).toContainText('0 of 742');
+  await expect(page.locator('#results .card')).toHaveCount(0);
+  await page.getByRole('searchbox', { name: 'Search Programs' }).fill('Brown');
+  for (const id of ['brown-math', 'brown-applied']) {
+    await page.locator('[data-compare="' + id + '"]').check();
+  }
+  await page.locator('[data-compare]').nth(2).check();
+  await page.getByRole('link', { name: /Compare Schools/ }).click();
+  await expect(page.getByRole('table').locator('thead th')).toHaveCount(4);
+  await page.getByRole('button', { name: 'Remove from Comparison' }).first().click();
+  await expect(page.getByRole('table').locator('thead th')).toHaveCount(3);
+  await signup(page, 'beta-remove@example.invalid', 'Fictional Beta Remove');
+  await page.getByRole('link', { name: 'Program Directory', exact: true }).click();
+  await page.locator('[data-save="auburn"]').click();
+  await page.getByRole('link', { name: 'Saved Programs', exact: true }).click();
+  await page.locator('[data-remove="auburn"]').click();
+  await expect(page.locator('#toast')).toContainText('Program Removed');
+  await page.reload();
+  await expect(page.locator('[data-remove]')).toHaveCount(0);
+  await page.getByRole('link', { name: 'Deadlines', exact: true }).click();
+  await expect(page.locator('#view')).toContainText('No Deadlines Yet');
+});

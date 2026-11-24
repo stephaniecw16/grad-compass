@@ -23,7 +23,12 @@ export async function accountClient() {
           detectSessionInUrl: true,
         },
       });
-    })();
+    })().catch((error) => {
+      // A temporary configuration/network outage must not poison every retry
+      // on this page. Successful initialization still shares one client.
+      backend = undefined;
+      throw error;
+    });
   return backend;
 }
 export async function activeAccount() {

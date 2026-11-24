@@ -1,5 +1,14 @@
 # Daily Progress
 
+## November 24, 2026 — Beta Testing and Online Profiles
+
+- Ran the complete student feature suite and expanded it to 26 Chromium/WebKit browser cases, adding temporary sign-in outage recovery, profile save-failure preservation/retry, empty searches, three-school comparison/removal and deleting saved programs.
+- Found and fixed a cached sign-in initialization failure that prevented retrying after a temporary configuration/network outage. Added explicit browser-only versus online profile storage instructions on My Profile.
+- Tested two existing fictional Pilot accounts through the real online interface: profiles saved in Chromium returned in fresh WebKit contexts. Confirmed cross-account read/write isolation, anonymous denial and blocked owner reassignment. Retested fresh-client planning saves, stale-write rejection and expanded-catalog downgrade protection.
+- Added an opt-in cross-browser cloud test with private fixture backup/restoration, explicit fictional-account guards and no traces/credentials in the repository. Retained the required version-2 marker when restoring older fictional plans. No real student account was used.
+- All 23 data/model checks, 26 browser cases, source checks, lint, formatting, type contracts, fixture-configured build and seven Git safeguard tests passed. Added a beta report and concrete public-launch checklist.
+- Confirmed profile storage already exists in Supabase for online accounts; local demo profiles stay in one browser. Documented remaining launch work: real email confirmation, password reset, full data export/deletion, privacy/support information and production operations. No public launch, schema/ownership-policy change or paid service was added.
+
 ## November 23, 2026 — Directory Websites, Contacts and Fresh Evidence
 
 - Refreshed all 742 AMS listings and 1,295 degree tracks. Preserved saved plans for three reviewed AMS source-ID replacements and all original 25 program IDs.
