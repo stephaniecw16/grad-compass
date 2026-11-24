@@ -1,0 +1,22 @@
+{
+  "checkedOn": "2026-11-23",
+  "listings": 742,
+  "departmentWebsites": 556,
+  "admissionsWebsites": 455,
+  "listedContacts": 429,
+  "usableContacts": 475,
+  "universityContacts": 242,
+  "departmentContacts": 171,
+  "reviewedContactRecords": 283,
+  "additionalReviewedDepartmentWebsites": 89,
+  "missingLinkSearches": 258,
+  "checkedUrls": 1354,
+  "retrievedUrls": 1051,
+  "sourceDataSha256": {
+    "department-data": "d02e2b7bece0744c91f4ac13fc4c09d57b9d023c36dd7b8b32127b381af5e5cb",
+    "department-research": "97756476873908d37e4adffdc202a6c202a7494dfc415aacbb1548093d801609",
+    "department-link-checks": "8c69b5ab2ee8715d6ebb6425e4a1679590012de6f5e7aa097f83deb865853de3",
+    "department-websites": "33650f0d7ff7274abda98c00a4806b22fd25e5d72ed4568d176a60bc601a7191"
+  },
+  "scope": "Coverage of individual sourced links and contacts, not fully verified programs. University contacts include separately labeled college and central graduate-school offices."
+}

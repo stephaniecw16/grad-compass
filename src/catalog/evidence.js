@@ -1,3 +1,4 @@
+import { departmentEvidence } from './department-info.js';
 // Every comparison cell carries its own source, scope, and verification state.
 // AMS reports are useful evidence, but are never presented as a current university policy.
 import { comparisonData, comparisonMissing } from './comparison-data.js';
@@ -9,6 +10,8 @@ import { universityChecks } from './university-checks.js';
 export const fieldLabels = [
   ['degrees', 'Listed Degree Options'],
   ['department', 'Department / Program'],
+  ['departmentWebsite', 'Department Website'],
+  ['departmentContacts', 'Department / Admissions Contacts'],
   ['location', 'Location'],
   ['areas', 'Areas of Expertise'],
   ['grePolicy', 'University GRE Policy · Overall'],
@@ -30,6 +33,10 @@ export const fieldLabels = [
   ['waiver', 'Fee Waiver / Request Eligibility'],
   ['online', 'Online Study Options by Degree'],
   ['awarded', 'Degrees Awarded (AMS Report)'],
+  ['firstYear', 'First-Year Enrollment (AMS Report)'],
+  ['tuitionReported', 'Reported Tuition and Fees (AMS)'],
+  ['stipendReported', 'Reported Stipend / Salary (AMS)'],
+  ['training', 'Skills Training Resources (AMS)'],
   ['sourceUpdated', 'AMS Listing Last Updated'],
 ];
 const unknown = (key) => ({
@@ -66,6 +73,8 @@ function tracks(program, callback) {
 export function fieldEvidence(program, key) {
   const p = program,
     report = p.ams;
+  if (key === 'departmentWebsite' || key === 'departmentContacts')
+    return departmentEvidence(program, key) || unknown(key);
   const reviewed = universityChecks[report.amsId]?.[key];
   if (reviewed)
     return { ...reviewed, status: reviewed.verification || 'university', checkedOn: '2026-11-23' };
@@ -206,6 +215,38 @@ export function fieldEvidence(program, key) {
           p,
           value,
           'Degree-specific online options; verify availability for the intended cohort.',
+        )
+      : unknown(key);
+  }
+  if (key === 'firstYear') {
+    const value = tracks(p, (t) => (t.firstYear === null ? null : String(t.firstYear)));
+    return value
+      ? ams(
+          p,
+          value,
+          'Degree-specific first-year enrollment; not admissions offers or acceptance rate. Reporting year not supplied.',
+        )
+      : unknown(key);
+  }
+  if (key === 'tuitionReported' || key === 'stipendReported') {
+    const value = tracks(p, (t) =>
+      t[key] ? (t[key].length <= 120 ? t[key] : 'See AMS for the reported description.') : null,
+    );
+    return value
+      ? ams(
+          p,
+          value,
+          'Raw department-reported amount/description. Currency, billing period, residency, waivers and funding guarantees are not independently verified. Tuition is not the application fee.',
+        )
+      : unknown(key);
+  }
+  if (key === 'training') {
+    const value = tracks(p, (t) => (t.training || []).join('; '));
+    return value
+      ? ams(
+          p,
+          value,
+          'Selected structured training categories by degree; availability and current schedule are not verified.',
         )
       : unknown(key);
   }

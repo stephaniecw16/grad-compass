@@ -236,3 +236,30 @@ test('account entry offers guest comparison even when online account access is u
   await expect(page).toHaveURL(/#compare$/);
   await expect(page.locator('#view')).not.toContainText('Create Free Account');
 });
+
+test('guests filter professional contacts, open sourced department details and compare contacts', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByLabel('Contact Information').selectOption('department');
+  await expect(page.locator('#results .card').first()).toBeVisible();
+  await page.locator('[data-details]').first().click();
+  const panel = page
+    .getByRole('dialog')
+    .getByRole('region', { name: 'Department Websites and Contacts' });
+  await expect(panel.getByRole('heading', { name: 'Whom to Contact' })).toBeVisible();
+  await expect(panel.locator('a[href^="mailto:"]').first()).toBeVisible();
+  await expect(panel).toContainText('University Source');
+  await expect(panel.getByRole('link', { name: 'Contact Source' }).first()).toHaveAttribute(
+    'href',
+    /^https?:\/\//,
+  );
+  await page.getByRole('button', { name: 'Close Details' }).click();
+  await page.locator('[data-compare]').nth(0).check();
+  await page.locator('[data-compare]').nth(1).check();
+  await page.getByRole('link', { name: /Compare Schools/ }).click();
+  await expect(
+    page.getByRole('rowheader', { name: 'Department / Admissions Contacts', exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('table a[href^="mailto:"]').first()).toBeVisible();
+});

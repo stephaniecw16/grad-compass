@@ -1,3 +1,4 @@
+import { departmentInfo } from '../catalog/department-info.js';
 import {
   drawFunding,
   drawWriting,
@@ -42,7 +43,16 @@ let account = null,
   dirty = false,
   saving = false;
 const compared = new Set(); // Public comparison choices do not expose any student's saved list.
-const filters = { query: '', area: '', region: '', degree: '', country: '', sort: 'name', page: 1 };
+const filters = {
+  query: '',
+  area: '',
+  region: '',
+  degree: '',
+  country: '',
+  contact: '',
+  sort: 'name',
+  page: 1,
+};
 const pageSize = 24;
 let toastTimer;
 function notify(message) {
@@ -86,8 +96,18 @@ function drawDirectory() {
       'A Program for Your Next Chapter',
       `Explore all ${catalogCount} AMS listings in the United States and Canada, covering ${degreeTrackCount} listed degree options.`,
     ) +
-    `<div class="filters"><label>Search Programs<input id="search" type="search" value="${html(filters.query)}" placeholder="School, department, city, or research area"></label><label>Degree Type<select id="degree" aria-label="Degree Type"><option value="">All Degree Types</option>${options(['Bridge/Postbaccalaureate', 'Masters', 'Doctoral', 'Certificate'], filters.degree)}</select></label><label>Country<select id="country" aria-label="Country"><option value="">All Countries</option>${options(['United States', 'Canada'], filters.country)}</select></label><label>Research Area<select id="area"><option value="">All Areas</option>${options([...new Set(programs.flatMap((p) => p.areas))].sort(), filters.area)}</select></label><label>Region<select id="region"><option value="">All Regions</option>${options([...new Set(programs.map((p) => p.region))].sort(), filters.region)}</select></label><label>Sort By<select id="sort"><option value="name">School Name</option><option value="deadline" ${filters.sort === 'deadline' ? 'selected' : ''}>Published Doctoral Deadline</option></select></label></div><p class="notice">AMS-reported data is separate from university-verified policies. Some listings are incomplete, duplicated or outdated. Open Program Details for field sources, scope and dates.</p><p class="quiet" id="result-count"></p><div id="results" class="grid"></div><nav id="pagination" class="pagination" aria-label="Directory Pages"></nav><p class="quiet">All AMS listing tables checked ${amsCheckedOn}. The original 25 doctoral programs retain their earlier university research dates. Only independently confirmed cycle dates appear automatically in your calendar. ${sourceLink(amsDirectory, 'Browse the AMS Directory')}</p>`;
+    `<div class="filters"><label>Search Programs<input id="search" type="search" value="${html(filters.query)}" placeholder="School, department, city, or research area"></label><label>Degree Type<select id="degree" aria-label="Degree Type"><option value="">All Degree Types</option>${options(['Bridge/Postbaccalaureate', 'Masters', 'Doctoral', 'Certificate'], filters.degree)}</select></label><label>Country<select id="country" aria-label="Country"><option value="">All Countries</option>${options(['United States', 'Canada'], filters.country)}</select></label><label>Research Area<select id="area"><option value="">All Areas</option>${options([...new Set(programs.flatMap((p) => p.areas))].sort(), filters.area)}</select></label><label>Region<select id="region"><option value="">All Regions</option>${options([...new Set(programs.map((p) => p.region))].sort(), filters.region)}</select></label><label>Contact Information<select id="contact"><option value="">All Programs</option><option value="university" ${filters.contact === 'university' ? 'selected' : ''}>University-Published Contact</option><option value="department" ${filters.contact === 'department' ? 'selected' : ''}>Department / Program Contact</option><option value="any" ${filters.contact === 'any' ? 'selected' : ''}>Any Listed Email or Phone</option><option value="missing" ${filters.contact === 'missing' ? 'selected' : ''}>No Listed Email or Phone</option></select></label><label>Sort By<select id="sort"><option value="name">School Name</option><option value="deadline" ${filters.sort === 'deadline' ? 'selected' : ''}>Published Doctoral Deadline</option></select></label></div><p class="notice">AMS-reported data is separate from university-verified policies. Some listings are incomplete, duplicated or outdated. Open Program Details for department websites, professional contacts, field sources, scope and dates. University-published contacts are distinguished from AMS-only reports.</p><p class="quiet" id="result-count"></p><div id="results" class="grid"></div><nav id="pagination" class="pagination" aria-label="Directory Pages"></nav><p class="quiet">All AMS listing tables checked ${amsCheckedOn}. The original 25 doctoral programs retain their earlier university research dates. Only independently confirmed cycle dates appear automatically in your calendar. ${sourceLink(amsDirectory, 'Browse the AMS Directory')}</p>`;
   drawResults();
+}
+function matchesContactFilter(program, selection) {
+  const info = departmentInfo(program);
+  if (selection === 'university') return info.contacts.some((c) => c.status === 'university');
+  if (selection === 'department')
+    return info.contacts.some(
+      (c) => c.status === 'university' && ['department', 'program'].includes(c.kind),
+    );
+  const hasContact = info.contacts.length || info.phones.length;
+  return selection === 'any' ? !!hasContact : !hasContact;
 }
 function drawResults() {
   const query = filters.query.trim().toLowerCase();
@@ -102,7 +122,8 @@ function drawResults() {
         (!filters.area || p.areas.includes(filters.area)) &&
         (!filters.region || p.region === filters.region) &&
         (!filters.degree || p.degrees.includes(filters.degree)) &&
-        (!filters.country || p.country === filters.country),
+        (!filters.country || p.country === filters.country) &&
+        (!filters.contact || matchesContactFilter(p, filters.contact)),
     )
     .sort((a, b) =>
       filters.sort === 'deadline'
@@ -291,7 +312,7 @@ view.addEventListener('input', (event) => {
 view.addEventListener('change', (event) => {
   handleResearchEvent(event, view, plan.saved);
   const id = event.target.id;
-  if (['area', 'region', 'sort', 'degree', 'country'].includes(id)) {
+  if (['area', 'region', 'sort', 'degree', 'country', 'contact'].includes(id)) {
     filters[id] = event.target.value;
     filters.page = 1;
     drawResults();

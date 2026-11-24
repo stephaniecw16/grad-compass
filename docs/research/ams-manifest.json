@@ -9,7 +9,7 @@
     "Bridge/Postbaccalaureate": 23,
     "Certificate": 112
   },
-  "sourceDataSha256": "dba4a08f834f962866b10d9ae7a9898f1d2dfab24d272694e63fca732e3e822d",
+  "sourceDataSha256": "a1c484a133b6cde99a726db7b2304a54ac342cae3a293e2de371bd3c817163fe",
   "importedListingIds": [
     "7906",
     "6201",
@@ -78,7 +78,7 @@
     "69",
     "75",
     "67",
-    "719",
+    "9040",
     "76",
     "99",
     "78",
@@ -227,7 +227,7 @@
     "8473",
     "285",
     "8487",
-    "6460",
+    "8663",
     "287",
     "296",
     "8459",
@@ -369,7 +369,7 @@
     "529",
     "2528",
     "8485",
-    "6215",
+    "8520",
     "1037",
     "540",
     "896",
@@ -767,6 +767,18 @@
       "ams": 742,
       "unverified": 0
     },
+    "departmentWebsite": {
+      "label": "Department Website",
+      "university": 90,
+      "ams": 466,
+      "unverified": 186
+    },
+    "departmentContacts": {
+      "label": "Department / Admissions Contacts",
+      "university": 242,
+      "ams": 233,
+      "unverified": 267
+    },
     "location": {
       "label": "Location",
       "university": 26,
@@ -800,8 +812,8 @@
     "amsGre": {
       "label": "AMS-Reported GRE Policy by Degree",
       "university": 0,
-      "ams": 464,
-      "unverified": 278
+      "ams": 465,
+      "unverified": 277
     },
     "average": {
       "label": "Average Years to Graduation",
@@ -892,6 +904,30 @@
       "university": 0,
       "ams": 393,
       "unverified": 349
+    },
+    "firstYear": {
+      "label": "First-Year Enrollment (AMS Report)",
+      "university": 0,
+      "ams": 371,
+      "unverified": 371
+    },
+    "tuitionReported": {
+      "label": "Reported Tuition and Fees (AMS)",
+      "university": 0,
+      "ams": 318,
+      "unverified": 424
+    },
+    "stipendReported": {
+      "label": "Reported Stipend / Salary (AMS)",
+      "university": 0,
+      "ams": 331,
+      "unverified": 411
+    },
+    "training": {
+      "label": "Skills Training Resources (AMS)",
+      "university": 0,
+      "ams": 61,
+      "unverified": 681
     },
     "sourceUpdated": {
       "label": "AMS Listing Last Updated",

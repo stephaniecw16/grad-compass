@@ -745,3 +745,16 @@ dialog::backdrop {
     grid-column: auto;
   }
 }
+
+/* Keep long professional addresses readable in details and comparison cells. */
+.department-contact {
+  border-top: 1px solid var(--line);
+  padding: 0.8rem 0;
+  overflow-wrap: anywhere;
+}
+.department-contact p {
+  margin: 0.35rem 0;
+}
+.department-panel h4 {
+  margin: 1rem 0 0.55rem;
+}

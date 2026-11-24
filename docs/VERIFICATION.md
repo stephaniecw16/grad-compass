@@ -39,3 +39,12 @@ Hosted verification: the dedicated GradApp (Student) build is ready at https://g
 - Added clear guest entry links above the account form and no-account messaging on both planner entry pages. Kept the fictional account demo optional.
 - All 18 Chromium/WebKit browser cases passed, including fresh-visitor comparison after the account configuration endpoint returns HTTP 503. All 19 model/research cases, syntax/dependency checks, lint, formatting, type contracts and static build passed.
 - No authentication permission, database, billing or Vercel protection settings changed. Vercel preview sign-in is separate from a GradApp account.
+
+## November 23, 2026 — Department Websites and Contacts
+
+- Fresh AMS reconciliation retains 742 unique current source IDs, 1,295 degree tracks and every saved program ID. Regression tests preserve notes and selected degrees for the three explicit AMS ID replacements.
+- All 23 model/catalog/research tests passed, including complete contact-record coverage, explicit source-to-program associations, deduplicated emails, office-role scope, primary URL safety, unknown preservation and degree-specific reported amounts.
+- All 20 Chromium/WebKit browser journeys passed with external requests blocked. The new journey checks guest contact filtering, sourced department details, email links and contact comparison. Local visual review confirmed the Department Websites and Contacts section and source badges.
+- Source/dependency checks, ESLint, formatting, TypeScript contracts and Python syntax checks passed. Static build passed with the reserved fictional browser-safe configuration; the first build correctly refused missing configuration. Existing hosted account configuration and database permissions were not changed.
+- Research checked 1,354 unique URLs and retrieved 1,051; all 258 listings missing both AMS website fields received a search pass. Published 89 newly reviewed official pages and 283 university-published professional email records. Retrieval/search coverage is never treated as full academic-policy verification. Coverage and hashes are recorded in research/department-manifest.json.
+- Initial local browser launches were blocked before tests started; the permitted local-server runs passed. Contact sources were read only: no email, form, application or portal submission was made. No raw page text, student data or credentials are published.

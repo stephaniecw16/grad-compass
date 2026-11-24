@@ -200,7 +200,7 @@ Published means at least one degree has public guidance; it does not certify a c
 | 69 | California State University, Fullerton · Info Sys/Decision Sci Dept | Not Verified |
 | 75 | California State University, Long Beach · Department of Mathematics and Statistics | Not Verified |
 | 67 | California State University, Los Angeles · Dept of Math | Not Verified |
-| 719 | California State University, Northridge · Department of Mathematics | Not Verified |
+| 9040 | California State University, Northridge · Department of Mathematics | Not Verified |
 | 76 | California State University, Northridge · Dept of Math | Not Verified |
 | 99 | California State University, Sacramento · Department of Mathematics & Statistics | Not Verified |
 | 78 | California State University, San Bernardino · Dept of Math | Not Verified |
@@ -349,7 +349,7 @@ Published means at least one degree has public guidance; it does not certify a c
 | 8473 | Louisiana Tech University · Comp Analysis & Modeling Prog | Not Verified |
 | 285 | Louisiana Tech University · Prog of Math & Stat | Not Verified |
 | 8487 | Loyola Marymount University · Dept of Mathematics, Statistics and Data Science | Not Verified |
-| 6460 | Loyola University of Chicago · Department of Mathematics & Statistics | Not Verified |
+| 8663 | Loyola University Chicago · Department of Mathematics and Statistics | Not Verified |
 | 287 | LSU Health Sciences Center, New Orleans · Dept of Biostats | Not Verified |
 | 296 | Manhattan College · Math Dept | Not Verified |
 | 8459 | Marquette University · Mathematical and Statistical Sciences | Published Guidance: Doctoral |
@@ -491,7 +491,7 @@ Published means at least one degree has public guidance; it does not certify a c
 | 529 | Stanford University · Dept of Management Sci & Engr | Not Verified |
 | 2528 | Stanford University · Mathematics | Published Guidance: Doctoral |
 | 8485 | Stanford University · Statistics | Not Verified |
-| 6215 | State University of New York at Buffalo-SUNY · Department of Biostatistics | Not Verified |
+| 8520 | State University of New York at Buffalo-SUNY · Department of Biostatistics | Not Verified |
 | 1037 | Stephen F Austin State University · Department of Mathematics & Statistics | Not Verified |
 | 540 | Stevens Institute of Technology · Dept of Math Sci | Not Verified |
 | 896 | Stony Brook University · Applied Mathematics and Statistics | Not Verified |

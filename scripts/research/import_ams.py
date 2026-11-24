@@ -9,6 +9,8 @@ import argparse, html, json, re
 from urllib.parse import urlsplit
 from pathlib import Path
 
+TRAINING={'Internships/Experiential Learning','Professional Communications/Career Readiness','Employer Relations/Networking Events/Alumni Panels','Life Design Activities/Reflective Self-Assessment','Mentoring/Individual Career Development Plans','Additional support focused on careers in BEGIN fields','We do not offer these resources at this time.'}
+
 LEVELS={'post':'Bridge/Postbaccalaureate','masters':'Masters','doctoral':'Doctoral','certificate':'Certificate'}
 # Exact category labels exposed by AMS's degree/specialty controls. The "Other"
 # free-text box also contains deadlines, curricula and marketing, not just topics.
@@ -61,6 +63,7 @@ def convert(record):
         other_reported=any(s not in SUBJECTS and s not in {'None','Other','None.'} for s in subjects)
         subjects=[s for s in subjects if s in SUBJECTS]
         tracks.append({'type':label,'areas':subjects,'otherAreasReported':other_reported,'online':field(rows,'Is the program offered online?') or None,
+          'training':[clean(v) for v in field(rows,'What skills training resources or workshops does your program or department offer to students?').split(' · ') if clean(v) in TRAINING],
           'greReported':field(rows,'GRE requirement') or None,
           'fullTime':number(field(rows,'Full-time')),'partTime':number(field(rows,'Part-time')),
           'firstYear':number(field(rows,'First year')),

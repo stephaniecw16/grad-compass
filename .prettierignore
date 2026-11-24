@@ -10,3 +10,6 @@ pnpm-lock.yaml
 
 # Reproducible public AMS facts, one listing per line.
 src/catalog/ams-data.js
+
+src/catalog/department-data.js
+src/catalog/department-link-checks.js

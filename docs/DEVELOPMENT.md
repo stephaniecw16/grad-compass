@@ -25,3 +25,12 @@ Planning schema version 2 adds degree selection. `protect-expanded-plans.sql`, a
 TypeScript covers student data contracts; model tests cover catalog completeness, source/unknown invariants, malformed URL rejection, preserved IDs and degree-specific dates. The 24-card pagination limit is presentation only; all 742 entries remain searchable and savable.
 
 Deployment protection must use `ssoProtection.deploymentType = "all"` for the student project. The earlier all-except-production-alias default did not protect the stable main URL. Verify the stable alias with a request that has no cookies or authorization; it must redirect to Vercel sign-in, not serve the catalog. Keep this separate from normal signed-in browser verification.
+
+
+## Department Evidence Pipeline
+
+- `import_department_contacts.py` builds factual AMS URL/email/phone records and explicit reviewed university-contact associations. Free-text paragraphs remain outside Git. Degree/program roles, college offices and central graduate-school contacts stay distinct.
+- `audit_department_pages.py` checks explicit source URLs plus one relevant public contact anchor per page, with verified TLS, robots rules, bounded reads, deduplication and per-host throttling. Private cache directories are operator arguments. Malformed source anchors are skipped and checkpoints can resume interrupted work.
+- `publish_department_audit.py` publishes factual retrieval outcomes and only conservative, unique, explicitly labeled university department anchors. `publish_department_websites.py` accepts explicit human review choices and requires retrieval before publishing a new official page; search snippets alone are excluded.
+- `department-info.js` joins the evidence by current AMS ID. `department-view.js` handles safe links, role labels and source dates. `department_report.mjs` and `coverage_report.mjs` reproduce public coverage inventories after formatting generated reviewed data.
+- Current AMS replacements 719→9040, 6460→8663 and 6215→8520 have explicit saved-ID aliases in `catalog.js`. Do not replace saved IDs or merge other duplicate departments by name.

@@ -12,6 +12,8 @@ export default [
       'playwright-report/**',
       'src/professor/reviewer-samples.js',
       'src/catalog/ams-data.js',
+      'src/catalog/department-data.js',
+      'src/catalog/department-link-checks.js',
       'demo-files/**',
       'tests/unit/**',
     ],

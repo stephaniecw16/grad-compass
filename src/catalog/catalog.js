@@ -32,6 +32,8 @@ export const curatedAmsIds = {
   cuny: '8775',
   dartmouth: '8476',
 };
+// Reviewed one-to-one AMS ID replacements; retain students' original saved IDs.
+export const previousAmsIds = { 9040: '719', 8663: '6460', 8520: '6215' };
 const curated = new Map(curatedPrograms.map((p) => [curatedAmsIds[p.id], p]));
 const regions = {
   Northeast: [
@@ -144,7 +146,7 @@ export const programs = amsListings.map((ams, index) => {
       : {}),
   };
   return {
-    id: old?.id || 'ams-' + ams.amsId,
+    id: old?.id || 'ams-' + (previousAmsIds[ams.amsId] || ams.amsId),
     name,
     title: old?.title || ams.department || 'Program Details Not Listed',
     degree: old?.degree || ams.tracks.map((track) => track.type).join(' · ') || 'Degree Not Listed',
@@ -195,6 +197,7 @@ export const programs = amsListings.map((ams, index) => {
     curatedPhD: !!old,
     ams: {
       ...ams,
+      previousAmsId: previousAmsIds[ams.amsId] || null,
       duplicateGroup:
         duplicateCounts.get((ams.institution + '|' + ams.department).toLowerCase()) > 1,
     },

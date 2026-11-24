@@ -1,5 +1,15 @@
 # Daily Progress
 
+## November 23, 2026 — Directory Websites, Contacts and Fresh Evidence
+
+- Refreshed all 742 AMS listings and 1,295 degree tracks. Preserved saved plans for three reviewed AMS source-ID replacements and all original 25 program IDs.
+- Checked 1,354 deduplicated public university URLs; retrieved 1,051. Searched all 258 listings missing both department and admissions URLs in AMS; added 89 directly retrieved, reviewed official department/contact/faculty pages. The directory now has department links for 556 listings and separate admissions URLs for 455.
+- Reviewed 283 professional email records covering 242 listings, including department/program contacts for 171. Labeled central graduate-school and college offices separately. Combined university and AMS evidence provides usable email/phone contacts for 475 listings; AMS-only contact roles remain unverified.
+- Added prominent Department Websites and Contacts sections, direct directory links, contact-coverage filtering and sourced comparison cells. Browsing and comparison stay available without a GradApp account.
+- Expanded comparison to 30 fields with degree-specific AMS first-year enrollment, reported tuition/fees, stipend/salary and structured skills-training categories. Kept reporting year, currency/period, funding guarantees and unavailable policies unknown.
+- Published research coverage, URL/search inventories and reproducible reports. Individual university-source fields now exist for 308 listings; retained academic/admissions research covers 90. No complete all-field verification is claimed.
+- Added regression checks for contact scope, explicit source associations, unknowns and stable saved IDs, plus the contact-filter/details/comparison browser journey. Preserved the owner's two README edits made on GitHub. No account, database, private-plan ownership, billing or deployment-protection settings changed.
+
 ## November 23, 2026 — Clear Guest Browsing
 
 - Made no-account browsing and comparison explicit on the homepage and workspace.
