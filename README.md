@@ -1,16 +1,16 @@
-# GradApp (Student)
+# Grad Compass
 
-**[Open GradApp (Student) — Full AMS Directory Preview](https://gradapp-student.vercel.app/)**
+**[Open Grad Compass — Full AMS Directory Preview](https://gradapp-student.vercel.app/)**
 
 742 AMS Listings · 1,295 Advertised Degree Options
 
-[Website offshoot of GradApp; name in progress]
+Grad Compass is the student research and planning offshoot of GradApp.
 
 A free student website to discover, research, compare, and keep track of mathematics graduate programs. This is the separate student-site repository, independent of [AppHelper](https://github.com/stephaniecw16/apphelper), the application-review project.
 
 The preview is protected and may require Vercel sign-in. Choose **Try the Student Demo** for a fictional browser-local account, or create/sign in to an online student account. Linking this preview does not make it public.
 
-**No GradApp account is required to browse or compare programs, scholarships, or application requirements.** An account is only needed to save personal planning information. The account page includes an explicit guest-browsing path. Vercel sign-in still protects the preview itself; that is separate from a GradApp account.
+**No Grad Compass account is required to browse or compare programs, scholarships, or application requirements.** An account is only needed to save personal planning information. The account page includes an explicit guest-browsing path. Vercel sign-in still protects the preview itself; that is separate from a GradApp account.
 
 ## What It Includes
 
@@ -94,4 +94,11 @@ Online student planning continues to use the existing development account system
 
 [Full AMS verification inventory](docs/AMS-VERIFICATION.md) · [Development guide](docs/DEVELOPMENT.md) · [Verification](docs/VERIFICATION.md) · [Daily progress](docs/DAILY-PROGRESS.md) · [Program sources](docs/SOURCES.md) · [Comparison sources](docs/COMPARISON-SOURCES.md) · [Fee sources](docs/FEE-SOURCES.md)
 
-GradApp is independent of AMS, Common App, ETS, and the listed institutions.
+Grad Compass is independent of AMS, Common App, ETS, and the listed institutions.
+
+
+## Grad Compass Name and Domain
+
+The student site and private repository were renamed to **Grad Compass** / [stephaniecw16/grad-compass](https://github.com/stephaniecw16/grad-compass) on November 24, 2026. The existing protected preview URL remains https://gradapp-student.vercel.app/ for continuity. No custom domain has been purchased or connected. Saved-program IDs, browser storage/session keys, online profile ownership and existing calendar event UIDs are preserved.
+
+[Domain availability and registration/renewal quotes](docs/DOMAIN-OPTIONS.md) were checked with Vercel on November 24. Domain purchase and public launch still require approval. Historical development records and the original GradApp/AppHelper repositories retain their original names.

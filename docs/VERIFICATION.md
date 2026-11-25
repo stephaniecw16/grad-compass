@@ -56,3 +56,10 @@ Hosted verification: the dedicated GradApp (Student) build is ready at https://g
 - Live Pilot verification used only two existing reserved fictional accounts. Actual Chromium UI sign-in/save and fresh WebKit sign-in retrieved each student's distinct profile. Cross-account reads/updates returned no rows; owner reassignment and anonymous reads were denied. No browser runtime errors occurred in the completed online run.
 - The existing opt-in catalog cloud check passed fresh-client persistence, two-account isolation, stale-save rejection and old-client downgrade protection. Fictional contents were restored; version-2 markers were retained. The new profile harness backs up original fictional plan contents outside Git before writes and verifies cleanup.
 - Source/dependency checks, ESLint, formatting, TypeScript contracts, fixture-configured static build and seven Git safeguard tests passed. No schema or authorization policy was changed. Real email delivery, password reset, full export/deletion and human usability/accessibility review remain launch work, documented in PUBLIC-LAUNCH.md.
+
+## November 24, 2026 — Grad Compass Branding and Repository Rename
+
+- Renamed the same private GitHub repository to stephaniecw16/grad-compass; repository ID 1468314289 and commit history are preserved. Updated the local origin and Git safety helper to the new URL.
+- Product-facing pages, titles, navigation, About copy, package/workflow labels and calendar exports use Grad Compass. Historical GradApp/AppHelper references, browser storage/session keys, saved IDs and existing calendar event UIDs remain compatible.
+- All 23 model/data checks, 26 Chromium/WebKit browser cases, source/dependency checks, lint, formatting, type contracts, fixture-configured build and seven Git safeguard checks passed. Calendar coverage explicitly checks the new producer label and unchanged event UID format.
+- Queried Vercel for eight exact domains; recorded registration/renewal prices and unconfirmed availability in DOMAIN-OPTIONS.md. No domain was bought or connected. The separate protected hosting project and preview origin retain their existing slug to preserve continuity.

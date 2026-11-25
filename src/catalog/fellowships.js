@@ -151,7 +151,7 @@ export const fellowships = [
     eligibility: [
       'Age 30 or younger at the deadline; qualifying immigrant or child-of-immigrants status under the detailed New American rules.',
       'Full-time U.S. graduate study in 2027–2028; applying to graduate school or in the first two years of the degree being funded. Prior-degree and joint-program rules apply.',
-      'All five GradApp subject areas can fit; this is a broader graduate award, not a math-only fellowship.',
+      'All five Grad Compass subject areas can fit; this is a broader graduate award, not a math-only fellowship.',
     ],
     requirements: [
       'Online eligibility/background information, relevant transcripts, résumé/CV, and 3–5 recommendations.',

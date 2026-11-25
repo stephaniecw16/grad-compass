@@ -88,7 +88,7 @@ test('student saves research, checklist, profile and deadlines, exports calendar
   await expect(page.locator('#view')).toContainText('Your Personal Planning Date');
   const download = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Download Calendar' }).click();
-  expect((await download).suggestedFilename()).toBe('GradApp-Planning-Deadlines.ics');
+  expect((await download).suggestedFilename()).toBe('Grad-Compass-Planning-Deadlines.ics');
 });
 
 test('two local student accounts have separate plans and can sign back in', async ({ page }) => {

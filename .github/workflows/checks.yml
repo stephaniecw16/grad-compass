@@ -1,4 +1,4 @@
-name: GradApp (Student) Checks
+name: Grad Compass Checks
 on:
   push:
   pull_request:

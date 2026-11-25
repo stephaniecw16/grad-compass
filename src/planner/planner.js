@@ -242,9 +242,9 @@ function drawAbout() {
   view.innerHTML =
     title(
       'Two Projects, Clear Purposes',
-      'GradApp helps students plan. AppHelper supports admissions review.',
+      'Grad Compass helps students plan. AppHelper supports admissions review.',
     ) +
-    '<div class="form-grid"><section class="panel"><h3>GradApp · Free for Students</h3><p>Research graduate study across mathematics and related subjects, compare evidence, save notes, and track deadlines. Apply directly through each university.</p></section><section class="panel"><h3>AppHelper · Separate Review Workspace</h3><p>Application importing, faculty collaboration and admissions review belong to the separate AppHelper project. This student site grants no staff access.</p></section></div>' +
+    '<div class="form-grid"><section class="panel"><h3>Grad Compass · Free for Students</h3><p>Research graduate study across mathematics and related subjects, compare evidence, save notes, and track deadlines. Apply directly through each university.</p></section><section class="panel"><h3>AppHelper · Separate Review Workspace</h3><p>Application importing, faculty collaboration and admissions review belong to the separate AppHelper project. This student site grants no staff access.</p></section></div>' +
     `<section class="panel"><h3>Directory Coverage</h3><p>All ${catalogCount} entries in the ${sourceLink(amsDirectory, 'AMS Graduate Program Directory')} were captured on ${amsCheckedOn}. They advertise ${degreeTrackCount} degree options across master's, doctoral, bridge/postbaccalaureate and certificate study in the United States and Canada. Separate AMS IDs are retained, including duplicate and incomplete listings. Inclusion does not certify that a program is currently admitting students.</p><h3>What Verification Means</h3><p><strong>University Source</strong> identifies a fact checked against a university page, with its date and program scope. <strong>AMS Reported</strong> identifies department-reported directory information, with the listing update time where available. <strong>Not Verified</strong> means there is no independently verified value; it never means zero, no fee waiver, or no GRE requirement.</p><p>The original 25 doctoral programs retain their earlier November 6–13 research; individual fresh checks show November 23. A listing update timestamp is not an enrollment census year. Funding duration is not average time to degree. Tuition is not an application fee. Raw AMS GRE labels can conflict and are not turned into test-specific university requirements.</p><h3>Deadlines and Your Data</h3><p>Only cycle-confirmed dates for the selected degree become automatic calendar events. Annual dates stay undated. Your personal overrides are labeled. Online planning records are private to your account; local preview records stay in this browser. No applications or reminder emails are sent by this site.</p></section>`;
 }
 function render() {
@@ -426,7 +426,7 @@ async function actions(event) {
       );
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'GradApp-Planning-Deadlines.ics';
+      a.download = 'Grad-Compass-Planning-Deadlines.ics';
       a.click();
       setTimeout(() => URL.revokeObjectURL(url), 1000);
       notify('Calendar Downloaded');

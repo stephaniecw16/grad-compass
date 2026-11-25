@@ -1,5 +1,13 @@
 # Daily Progress
 
+## November 24, 2026 — Grad Compass Rename and Domain Research
+
+- Applied the approved name Grad Compass throughout site titles, navigation, branding, account/retired-route pages, About text, scholarship wording and calendar exports. Retained the lowercase gamma mark.
+- Renamed the existing private GitHub repository to stephaniecw16/grad-compass, preserving its repository ID, history and access. Updated the GitHub description, local origin, Git safety helper, workflow label, package name and working instructions.
+- Preserved browser storage/session keys, student program IDs, database records, calendar event UIDs and the existing protected Vercel preview origin. The Vercel project retains its old hosting slug for continuity.
+- Checked eight domain options through Vercel without buying anything. Recommended gradcompass.org, quoted at $9.99 for the first year and $10.99/year renewal. Recorded all available alternatives and uncertainty in DOMAIN-OPTIONS.md.
+- Updated README and current development guidance while retaining historical GradApp/AppHelper provenance. No public launch, paid service, domain purchase or DNS change was made.
+
 ## November 24, 2026 — Beta Testing and Online Profiles
 
 - Ran the complete student feature suite and expanded it to 26 Chromium/WebKit browser cases, adding temporary sign-in outage recovery, profile save-failure preservation/retry, empty searches, three-school comparison/removal and deleting saved programs.

@@ -89,7 +89,7 @@ export function calendarFile(rows) {
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//GradApp//Student Planner//EN',
+    'PRODID:-//Grad Compass//Student Planner//EN',
     'CALSCALE:GREGORIAN',
   ];
   const escape = (s) =>
@@ -103,6 +103,7 @@ export function calendarFile(rows) {
     const end = new Date(Date.parse(date + 'T12:00:00Z') + 86400000).toISOString().slice(0, 10);
     lines.push(
       'BEGIN:VEVENT',
+      // Keep existing event identifiers so renamed exports do not duplicate events.
       'UID:' + program.id + '-' + date + '@gradapp.planner',
       'DTSTAMP:' +
         new Date()
@@ -114,7 +115,7 @@ export function calendarFile(rows) {
       'SUMMARY:' + escape(program.name + ' — ' + program.title),
       'DESCRIPTION:' +
         escape(
-          'Personal planning deadline. Verify the current deadline with the university. GradApp does not submit applications.',
+          'Personal planning deadline. Verify the current deadline with the university. Grad Compass does not submit applications.',
         ),
       'END:VEVENT',
     );

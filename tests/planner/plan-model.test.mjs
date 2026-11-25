@@ -48,6 +48,8 @@ test('calendar events escape text, fold unicode lines, and use exclusive all-day
     },
     { program: { id: 'unknown' }, date: '' },
   ]);
+  assert.match(calendar, /PRODID:-\/\/Grad Compass\/\/Student Planner\/\/EN/);
+  assert.match(calendar, /UID:test-2026-12-31@gradapp\.planner/);
   assert.match(calendar, /DTSTART;VALUE=DATE:20261231/);
   assert.match(calendar, /DTEND;VALUE=DATE:20270101/);
   assert.match(calendar, /SUMMARY:Fictional\\, School\\;/);

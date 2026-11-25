@@ -1,6 +1,6 @@
 # Development Guide
 
-This is the standalone GradApp (Student) website, extracted from the verified student-planner version in the original GradApp repository. The active modules, catalog, styles and tests are unchanged in behavior. Legacy portal source, real user files and secrets were not copied.
+This is Grad Compass, the standalone student website (formerly GradApp Student), extracted from the verified student-planner version in the original GradApp repository. The active modules, catalog, styles and tests are unchanged in behavior. Legacy portal source, real user files and secrets were not copied.
 
 Use the commands in [README](../README.md). Playwright runs six fictional journeys in both Chromium and WebKit: public research/comparison; signup and plan/profile/checklist/deadline persistence; separate local accounts and repeat sign-in; visitor-to-demo continuation and retired routes; mobile width and unsaved changes. External requests are refused in this suite.
 
@@ -34,3 +34,8 @@ Deployment protection must use `ssoProtection.deploymentType = "all"` for the st
 - `publish_department_audit.py` publishes factual retrieval outcomes and only conservative, unique, explicitly labeled university department anchors. `publish_department_websites.py` accepts explicit human review choices and requires retrieval before publishing a new official page; search snippets alone are excluded.
 - `department-info.js` joins the evidence by current AMS ID. `department-view.js` handles safe links, role labels and source dates. `department_report.mjs` and `coverage_report.mjs` reproduce public coverage inventories after formatting generated reviewed data.
 - Current AMS replacements 719→9040, 6460→8663 and 6215→8520 have explicit saved-ID aliases in `catalog.js`. Do not replace saved IDs or merge other duplicate departments by name.
+
+
+## Branding Compatibility
+
+The approved repository is now `stephaniecw16/grad-compass`; the Git safety helper and local origin must use that remote. The protected Vercel project remains named `gradapp-student`, so changing the display name does not change the preview origin, authentication redirects or existing data. Keep `gradapp.*` browser keys and the `@gradapp.planner` calendar UID suffix; these are compatibility identifiers, not product labels.

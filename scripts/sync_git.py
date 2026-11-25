@@ -43,13 +43,13 @@ def main():
         "remote", "get-url", "--push", "--all", remote, capture=True
     ).splitlines()
     allowed = {
-        "https://github.com/stephaniecw16/gradapp-student.git",
-        "https://github.com/stephaniecw16/gradapp-student",
-        "git@github.com:stephaniecw16/gradapp-student.git",
+        "https://github.com/stephaniecw16/grad-compass.git",
+        "https://github.com/stephaniecw16/grad-compass",
+        "git@github.com:stephaniecw16/grad-compass.git",
     }
     if len(urls) != 1 or urls[0] not in allowed:
         raise SystemExit(
-            "Upstream push URL differs from the intended GradApp (Student) repository."
+            "Upstream push URL differs from the intended Grad Compass repository."
         )
     paths = set()
     for name in args.paths:

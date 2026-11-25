@@ -34,7 +34,7 @@ class GitToolsTests(unittest.TestCase):
         self.git("add", ".")
         self.git("commit", "-m", "Test baseline")
         self.git(
-            "remote", "add", "origin", "https://github.com/stephaniecw16/gradapp-student.git"
+            "remote", "add", "origin", "https://github.com/stephaniecw16/grad-compass.git"
         )
         self.git("update-ref", "refs/remotes/origin/main", "HEAD")
         self.git("config", "branch.main.remote", "origin")
