@@ -1,5 +1,13 @@
 # Daily Progress
 
+## November 24, 2026 — Separate Supabase Organization and GitHub Link
+
+- Created the Grad Compass organization on the Free ($0/month) plan, separate from the older GradApp organization. Saved the owner-requested “Yes” answer for coding experience.
+- After the owner refreshed Supabase authorization, created grad-compass-production in us-east-1 and verified ACTIVE_HEALTHY status.
+- Enabled the GitHub integration for stephaniecw16/grad-compass with working directory `.`. Verified the saved repository in the dashboard. Kept automatic production database deployment off until schema preparation and validation; automatic preview branching is unavailable on the Free plan.
+- Preserved the existing Pilot project, hosted account configuration, legacy projects, and all records. No paid service or public release was enabled.
+- Documented project references, boundaries and remaining recovery, privacy/data-control, migration and backup checks. Creating and linking this empty project does not finish those launch requirements.
+
 ## November 24, 2026 — Approved Grad Compass Preview Address
 
 - With explicit owner approval, attached and verified the free grad-compass.vercel.app address to the existing grad-compass Vercel project. All-URL Vercel sign-in protection remains enabled; no public launch or paid domain registration was requested.

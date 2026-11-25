@@ -90,6 +90,8 @@ This repository was extracted from GradApp commit `8f29f6d38c2a147e75a05dd5feb47
 
 The dedicated `grad-compass` Vercel project is connected to this private repository, with the existing development account configuration and Vercel sign-in protection. The old GradApp/AppHelper projects remain separate. Public publishing and paid services require the owner’s approval.
 
+A separate **Grad Compass** Supabase organization and **grad-compass-production** project are now created on the Free plan and linked to this repository. Automatic database deployment is off while the production schema and recovery process are prepared. The hosted website has **not** switched to the new project. See [production setup and remaining checks](docs/PRODUCTION-SETUP.md).
+
 Online student planning continues to use the existing development account system and RLS-protected `student_program_plans` table. Do not reapply [the initial schema](supabase/student-plans.sql) to the current project: it is already installed. The additive [expanded-plan guard](supabase/protect-expanded-plans.sql) rejects older clients attempting to downgrade a version-2 plan; existing saved contents and ownership policies are preserved. Real confirmation-email delivery and the final launch-domain redirect configuration remain launch checks.
 
 [Full AMS verification inventory](docs/AMS-VERIFICATION.md) · [Development guide](docs/DEVELOPMENT.md) · [Verification](docs/VERIFICATION.md) · [Daily progress](docs/DAILY-PROGRESS.md) · [Program sources](docs/SOURCES.md) · [Comparison sources](docs/COMPARISON-SOURCES.md) · [Fee sources](docs/FEE-SOURCES.md)
