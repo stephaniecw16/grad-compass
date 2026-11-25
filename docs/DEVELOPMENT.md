@@ -10,7 +10,7 @@ The exact-version pnpm build-script approval for esbuild is retained. Keep the p
 
 Online plans reuse the existing Supabase development project. Its account-owned RLS table has three ownership policies, restricted column grants, server-generated revisions and stale-save conflict handling. Browser-local preview accounts cannot authorize database access. Email confirmation remains enabled. The original source version was checked with two fictional online users through the interface and database; this repository extraction does not create new real accounts or change backend permissions.
 
-The separate Vercel project uses the established configuration; for a new developer setup, use the existing static settings in vercel.json: build with pnpm build and serve dist. Add only SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY to its environment, keep deployment protection enabled, and verify its confirmation redirect URLs before inviting testers. The expanded catalog uses a separate protected `gradapp-student` Vercel project linked to this repository. No public deployment or paid service is authorized by the repository extraction.
+The separate Vercel project uses the established configuration; for a new developer setup, use the existing static settings in vercel.json: build with pnpm build and serve dist. Add only SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY to its environment, keep deployment protection enabled, and verify its confirmation redirect URLs before inviting testers. The expanded catalog uses a separate protected `grad-compass` Vercel project linked to this repository. No public deployment or paid service is authorized by the repository extraction.
 
 ## Full Catalog and Provenance
 
@@ -38,4 +38,4 @@ Deployment protection must use `ssoProtection.deploymentType = "all"` for the st
 
 ## Branding Compatibility
 
-The approved repository is now `stephaniecw16/grad-compass`; the Git safety helper and local origin must use that remote. The protected Vercel project remains named `gradapp-student`, so changing the display name does not change the preview origin, authentication redirects or existing data. Keep `gradapp.*` browser keys and the `@gradapp.planner` calendar UID suffix; these are compatibility identifiers, not product labels.
+The approved repository is now `stephaniecw16/grad-compass`; the Git safety helper and local origin must use that remote. The protected Vercel project is now named `grad-compass` (same project ID). Its existing `gradapp-student.vercel.app` preview address remains attached; a separate address change awaits approval, so authentication redirects and browser storage origins remain unchanged. Keep `gradapp.*` browser keys and the `@gradapp.planner` calendar UID suffix; these are compatibility identifiers, not product labels.

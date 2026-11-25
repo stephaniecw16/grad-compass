@@ -1,5 +1,11 @@
 # Daily Progress
 
+## November 24, 2026 — Vercel Project Rename
+
+- Renamed the existing Vercel project from gradapp-student to grad-compass, retaining project ID prj_LYpwAE805o2KUAj9SxC2voUD8LrU, the existing Git connection and all-URL Vercel sign-in protection.
+- Confirmed the current deployment remains Ready and the existing gradapp-student.vercel.app address stays attached. Updated current repository/developer instructions to the new project name.
+- A separate attempt to attach grad-compass.vercel.app was rejected by automatic approval review as an address change beyond the project rename. No new stable address or custom domain was attached; that action awaits explicit approval. No public exposure, purchase, DNS change or authentication change was made.
+
 ## November 24, 2026 — Grad Compass Rename and Domain Research
 
 - Applied the approved name Grad Compass throughout site titles, navigation, branding, account/retired-route pages, About text, scholarship wording and calendar exports. Retained the lowercase gamma mark.

@@ -88,7 +88,7 @@ Building requires the two browser-safe environment values; output is the allowli
 
 This repository was extracted from GradApp commit `8f29f6d38c2a147e75a05dd5feb47940dbe29550` on November 23, 2026. It contains the working student-site files and their build/tests, with fresh repository history. Old application code and records remain in the original private [GradApp repository](https://github.com/stephaniecw16/gradapp). AppHelper remains separate and unchanged.
 
-The dedicated `gradapp-student` Vercel project is connected to this private repository, with the existing development account configuration and Vercel sign-in protection. The old GradApp/AppHelper projects remain separate. Public publishing and paid services require the owner’s approval.
+The dedicated `grad-compass` Vercel project is connected to this private repository, with the existing development account configuration and Vercel sign-in protection. The old GradApp/AppHelper projects remain separate. Public publishing and paid services require the owner’s approval.
 
 Online student planning continues to use the existing development account system and RLS-protected `student_program_plans` table. Do not reapply [the initial schema](supabase/student-plans.sql) to the current project: it is already installed. The additive [expanded-plan guard](supabase/protect-expanded-plans.sql) rejects older clients attempting to downgrade a version-2 plan; existing saved contents and ownership policies are preserved. Real confirmation-email delivery and the final launch-domain redirect configuration remain launch checks.
 
@@ -99,6 +99,6 @@ Grad Compass is independent of AMS, Common App, ETS, and the listed institutions
 
 ## Grad Compass Name and Domain
 
-The student site and private repository were renamed to **Grad Compass** / [stephaniecw16/grad-compass](https://github.com/stephaniecw16/grad-compass) on November 24, 2026. The existing protected preview URL remains https://gradapp-student.vercel.app/ for continuity. No custom domain has been purchased or connected. Saved-program IDs, browser storage/session keys, online profile ownership and existing calendar event UIDs are preserved.
+The student site and private repository were renamed to **Grad Compass** / [stephaniecw16/grad-compass](https://github.com/stephaniecw16/grad-compass) on November 24, 2026. The Vercel project is also named `grad-compass`. Its protected preview URL currently remains https://gradapp-student.vercel.app/; changing the preview address is a separate pending step. No custom domain has been purchased or connected. Saved-program IDs, browser storage/session keys, online profile ownership and existing calendar event UIDs are preserved.
 
 [Domain availability and registration/renewal quotes](docs/DOMAIN-OPTIONS.md) were checked with Vercel on November 24. Domain purchase and public launch still require approval. Historical development records and the original GradApp/AppHelper repositories retain their original names.
