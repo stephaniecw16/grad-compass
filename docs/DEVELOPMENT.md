@@ -38,4 +38,7 @@ Deployment protection must use `ssoProtection.deploymentType = "all"` for the st
 
 ## Branding Compatibility
 
-The approved repository is now `stephaniecw16/grad-compass`; the Git safety helper and local origin must use that remote. The protected Vercel project is now named `grad-compass` (same project ID). Its existing `gradapp-student.vercel.app` preview address remains attached; a separate address change awaits approval, so authentication redirects and browser storage origins remain unchanged. Keep `gradapp.*` browser keys and the `@gradapp.planner` calendar UID suffix; these are compatibility identifiers, not product labels.
+The approved repository is now `stephaniecw16/grad-compass`; the Git safety helper and local origin must use that remote. The protected Vercel project is now named `grad-compass` (same project ID). Its approved protected preview is `https://grad-compass.vercel.app/`; the old `gradapp-student.vercel.app` address remains attached for compatibility. Online users sign in again on the new origin to retrieve their same account-owned plan. Browser-local demo data stays on its original origin and is not silently moved. Keep `gradapp.*` browser keys and the `@gradapp.planner` calendar UID suffix; these are compatibility identifiers, not product labels.
+
+
+The approved preview callback `https://grad-compass.vercel.app/index.html` is allowlisted in Pilot Auth, matching `account.js` emailRedirectTo. The shared global fallback Site URL was not changed during this address update; review production fallback/templates and real confirmation-email delivery before public launch. Do not add broad wildcard redirect patterns.

@@ -1,6 +1,6 @@
 # Grad Compass
 
-**[Open Grad Compass — Full AMS Directory Preview](https://gradapp-student.vercel.app/)**
+**[Open Grad Compass — Full AMS Directory Preview](https://grad-compass.vercel.app/)**
 
 742 AMS Listings · 1,295 Advertised Degree Options
 
@@ -10,7 +10,7 @@ A free student website to discover, research, compare, and keep track of mathema
 
 The preview is protected and may require Vercel sign-in. Choose **Try the Student Demo** for a fictional browser-local account, or create/sign in to an online student account. Linking this preview does not make it public.
 
-**No Grad Compass account is required to browse or compare programs, scholarships, or application requirements.** An account is only needed to save personal planning information. The account page includes an explicit guest-browsing path. Vercel sign-in still protects the preview itself; that is separate from a GradApp account.
+**No Grad Compass account is required to browse or compare programs, scholarships, or application requirements.** An account is only needed to save personal planning information. The account page includes an explicit guest-browsing path. Vercel sign-in still protects the preview itself; that is separate from a Grad Compass account.
 
 ## What It Includes
 
@@ -99,6 +99,6 @@ Grad Compass is independent of AMS, Common App, ETS, and the listed institutions
 
 ## Grad Compass Name and Domain
 
-The student site and private repository were renamed to **Grad Compass** / [stephaniecw16/grad-compass](https://github.com/stephaniecw16/grad-compass) on November 24, 2026. The Vercel project is also named `grad-compass`. Its protected preview URL currently remains https://gradapp-student.vercel.app/; changing the preview address is a separate pending step. No custom domain has been purchased or connected. Saved-program IDs, browser storage/session keys, online profile ownership and existing calendar event UIDs are preserved.
+The student site and private repository were renamed to **Grad Compass** / [stephaniecw16/grad-compass](https://github.com/stephaniecw16/grad-compass) on November 24, 2026. The Vercel project is also named `grad-compass`. Its approved protected preview is https://grad-compass.vercel.app/. The previous gradapp-student.vercel.app address remains attached for compatibility. No custom domain has been purchased or connected. Saved-program IDs, browser storage/session keys, online profile ownership and existing calendar event UIDs are preserved.
 
 [Domain availability and registration/renewal quotes](docs/DOMAIN-OPTIONS.md) were checked with Vercel on November 24. Domain purchase and public launch still require approval. Historical development records and the original GradApp/AppHelper repositories retain their original names.

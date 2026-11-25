@@ -1,5 +1,12 @@
 # Daily Progress
 
+## November 24, 2026 — Approved Grad Compass Preview Address
+
+- With explicit owner approval, attached and verified the free grad-compass.vercel.app address to the existing grad-compass Vercel project. All-URL Vercel sign-in protection remains enabled; no public launch or paid domain registration was requested.
+- Updated GitHub's website field, README and current developer instructions to the new protected preview. Kept the prior gradapp-student.vercel.app address for continuity.
+- Added the exact https://grad-compass.vercel.app/index.html callback to Supabase Auth’s redirect allowlist, matching the existing signup code. Kept the shared project’s global fallback Site URL unchanged. Real confirmation-email delivery remains a launch check.
+- Online profile ownership and stored plans are unchanged. Users sign in again on the new origin; local demo records remain in the browser storage of the origin where they were created.
+
 ## November 24, 2026 — Vercel Project Rename
 
 - Renamed the existing Vercel project from gradapp-student to grad-compass, retaining project ID prj_LYpwAE805o2KUAj9SxC2voUD8LrU, the existing Git connection and all-URL Vercel sign-in protection.

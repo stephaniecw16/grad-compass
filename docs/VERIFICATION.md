@@ -63,3 +63,11 @@ Hosted verification: the dedicated GradApp (Student) build is ready at https://g
 - Product-facing pages, titles, navigation, About copy, package/workflow labels and calendar exports use Grad Compass. Historical GradApp/AppHelper references, browser storage/session keys, saved IDs and existing calendar event UIDs remain compatible.
 - All 23 model/data checks, 26 Chromium/WebKit browser cases, source/dependency checks, lint, formatting, type contracts, fixture-configured build and seven Git safeguard checks passed. Calendar coverage explicitly checks the new producer label and unchanged event UID format.
 - Queried Vercel for eight exact domains; recorded registration/renewal prices and unconfirmed availability in DOMAIN-OPTIONS.md. No domain was bought or connected. The separate protected hosting project and preview origin retain their existing slug to preserve continuity.
+
+
+## November 24, 2026 — Approved Short Preview Address
+
+- Attached and verified grad-compass.vercel.app on the existing project after explicit owner approval. Confirmed both it and gradapp-student.vercel.app return an anonymous 302 redirect to Vercel sign-in. All-URL deployment protection remains enabled.
+- Opened the new HTTPS address in the authorized browser and verified the Grad Compass page, 742-listing directory and account links. Updated GitHub’s website metadata and current repository preview links.
+- Added only the exact https://grad-compass.vercel.app/index.html return URL to Pilot Auth’s allowlist; the dashboard confirmed one URL saved. Global fallback settings, ownership policies and profile records were unchanged. Real confirmation-email delivery and public-launch configuration remain separate checks.
+- Source/dependency and repository audits passed for the documentation updates. No product code, paid domain registration, public release or DNS zone change was included.
